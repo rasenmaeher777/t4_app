@@ -1,0 +1,61 @@
+{
+  "_hinweis": "Modellgeschichte, Einordnung des Baujahrs 1994, Sondermodelle und Lack.",
+  "t4_allgemein": [
+    {"fakt": "Bauzeit des T4: 1990–2003; erster VW-Bus mit Frontmotor und Frontantrieb", "quelle": ["t4wiki:Modellübersicht", "wikipedia-de"]},
+    {"fakt": "Der Multivan wurde ab 09/1990 gebaut (ADAC-Katalog führt den Multivan 2.4 D ab 03/1991) und war nur mit kurzem Radstand, einer Schiebetür und in der Regel mit Heckklappe erhältlich", "quelle": ["t4wiki:Multivan", "t4wiki:Modellübersicht", "adac"]},
+    {"fakt": "Unterschiede zum Transporter: bessere Schallisolierung, umfangreichere Serienausstattung, hochwertigere Innenverkleidungen, gepolsterte Schalttafel", "quelle": "t4wiki:Multivan"},
+    {"fakt": "Bis zur Großen Produktaufwertung (MJ 1996) unterschieden sich Transporter und PKW-Modelle äußerlich nicht – alle hatten den kurzen Vorderwagen", "quelle": "t4wiki:Modellübersicht"},
+    {"fakt": "Multivan I (bis MJ 1998/99): fest montierte, aber ausbaubare Einzelsitze gegen die Fahrtrichtung in der 2. Reihe (laut Wikipedia mit hochklappbarer Sitzfläche und integrierter Kühlbox), umklappbare Schlafsitzbank, Klapptisch", "quelle": ["t4wiki:Modellübersicht", "wikipedia-de"]}
+  ],
+  "modelljahre": {
+    "quelle": "t4wiki:Modelljahr",
+    "erklaerung": "Modelljahre beginnen in der Regel nach den Werksferien im Sommer. Die 10. Stelle der Fahrzeug-Identifizierungsnummer codiert das Modelljahr.",
+    "tabelle": [
+      {"modelljahr": 1991, "zeitraum": "01.09.1990 – 30.09.1991", "zeichen": "M"},
+      {"modelljahr": 1992, "zeitraum": "01.10.1991 – 31.07.1992", "zeichen": "N"},
+      {"modelljahr": 1993, "zeitraum": "01.08.1992 – 31.07.1993", "zeichen": "P"},
+      {"modelljahr": 1994, "zeitraum": "01.08.1993 – 31.07.1994", "zeichen": "R", "mein_bus": "möglich"},
+      {"modelljahr": 1995, "zeitraum": "01.07.1994 – 31.07.1995", "zeichen": "S", "mein_bus": "möglich"},
+      {"modelljahr": 1996, "zeitraum": "01.07.1995 – 30.04.1996", "zeichen": "T", "hinweis": "ab 01/1996 Große Produktaufwertung"},
+      {"modelljahr": 1997, "zeitraum": "01.05.1996 – 30.04.1997", "zeichen": "V"},
+      {"modelljahr": 1998, "zeitraum": "01.05.1997 – 30.04.1998", "zeichen": "W"},
+      {"modelljahr": 1999, "zeitraum": "01.05.1998 – 30.04.1999", "zeichen": "X"},
+      {"modelljahr": 2000, "zeitraum": "01.05.1999 – 30.04.2000", "zeichen": "Y"},
+      {"modelljahr": 2001, "zeitraum": "01.05.2000 – 30.04.2001", "zeichen": "1"},
+      {"modelljahr": 2002, "zeitraum": "01.05.2001 – 30.04.2002", "zeichen": "2"},
+      {"modelljahr": 2003, "zeitraum": "01.05.2002 – 30.06.2003", "zeichen": "3"}
+    ]
+  },
+  "was_1994_ausmacht": [
+    {"fakt": "Kurzer Vorderwagen, dreiteiliger Stoßfänger hinten (einteilig ab 1996), Kühlergrill noch nicht einteilig (einteilig ab 1995), Kotflügel noch nicht geschraubt (geschraubt mit „Kiemen“ rechts erst ab 1996)", "quelle": "t4wiki:Modellübersicht"},
+    {"fakt": "Cockpit der ersten Generation (1991–1995), mechanischer Tacho, keine Service-Intervallanzeige", "quelle": ["t4wiki:Modellübersicht", "t4wiki:Inspektion"]},
+    {"fakt": "Trommelbremsen hinten (bis Ende 1995), lastabhängiger Bremsdruckminderer", "quelle": ["wikipedia-de", "t4wiki:Trommelbremse"]},
+    {"fakt": "Nur 02B-Schaltgetriebe (02G erst ab 1996), Automatik Typ 098", "quelle": "t4wiki:Getriebe"},
+    {"fakt": "Kühlmittel ab Werk G11", "quelle": "t4wiki:Kühlmittel"},
+    {"fakt": "Lackumstellung auf Wasserbasis Ende 1993/Anfang 1994 – Jahrgänge 1994/95 gelten als rostanfälliger", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"fakt": "Fahrer- und Beifahrerairbag laut ADAC nur im Paket (Sonderausstattung), ABS gegen Aufpreis", "quelle": "adac"},
+    {"fakt": "Syncro-Allrad seit 1993 lieferbar", "quelle": "wikipedia-de"}
+  ],
+  "sondermodelle_1994": [
+    {"name": "Allstar", "zeitraum_adac": "10/1992 – 12/1995", "merkmale": "graue Absetzlackierung unten, Schriftzüge. Laut Wikipedia (MJ 1993): siebensitzige Variante mit elektrischen Außenspiegeln und Fensterhebern vorn, Drehzahlmesser, Nebelscheinwerfern, durchgehendem Stoffboden, Zentralverriegelung, Wärmeschutzverglasung", "quelle": ["t4wiki:Allstar", "wikipedia-de", "adac"]},
+    {"name": "Classic", "zeitraum_adac": "01/1994 – 12/1995", "merkmale": "Dekorfolien/Schriftzüge, Stoßfänger in Wagenfarbe, Armlehnen, Kopfstützen, Stoff hellgrau; PR-Nummer E6Y (Sonderaktion „Multivan Classic“)", "quelle": ["t4wiki:Classic", "t4wiki:Ausstattungsnummer", "adac"]},
+    {"name": "Multivan (Basis)", "zeitraum_adac": "03/1991 – 12/1995", "merkmale": "6 Sitze (max. 7), Gummiboden", "quelle": ["adac", "t4wiki:Modellübersicht"]}
+  ],
+  "lack": {
+    "farbe": "Silbergrau Metallic",
+    "code": "D7V",
+    "lacknummer": "LD7V",
+    "verwendung": "09/1991 – 12/1995",
+    "englische_bezeichnung": "Silver Gray Metallic (LD7V/C1) – so beim nordamerikanischen T4 „Eurovan“ gelistet",
+    "verwechslungsgefahr": [
+      {"code": "N7P", "name": "silbergrau-metallic", "zeitraum": "07/1995 – 04/1999", "hinweis": "gleicher Name, anderer Code – Nachfolgefarbton"},
+      {"code": "007", "name": "grobsilber", "zeitraum": "09/1990 – 05/1996"},
+      {"code": "LB7Z", "name": "Satinsilber Metallic", "hinweis": "wird im Netz oft für silberne T4 genannt, steht aber nicht in der T4-Wiki-Farbliste für diesen Zeitraum"},
+      {"code": "A7W", "name": "reflexsilber-metallic", "zeitraum": "05/1999 – 06/2003"}
+    ],
+    "wo_steht_der_code": "Fahrzeugdatenträger, Zeile 6: dreistelliger Code hinter „L“, danach ggf. Absetzfarbe und zweistellige Polsterfarbe",
+    "aufpreis_damals": "Metallic-Lackierung 1.105 € (ADAC, umgerechnet)",
+    "bild": "recherche/t4-wiki/bilder/silbergrau_metallic.jpg (Farbmuster aus dem T4-Wiki)",
+    "quelle": ["t4wiki:Farbnummern", "t4wiki:Fahrzeugdatenträger", "paintscratch", "adac"]
+  }
+}

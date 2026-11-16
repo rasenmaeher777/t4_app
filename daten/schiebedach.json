@@ -1,0 +1,44 @@
+{
+  "_hinweis": "Großes elektrisches Glasschiebedach („Panoramadach“) des frühen T4 Multivan. Die Quellenlage ist dünn: Das T4-Wiki hat keinen eigenen Schiebedach-Artikel, die Angaben stammen überwiegend aus einem Forenthread zu einem Multivan Bj. 1993. Alles hier ist als vorläufig zu betrachten.",
+  "datenqualitaet": "niedrig bis mittel – vor Veröffentlichung am eigenen Fahrzeug bzw. mit dem VW-Reparaturleitfaden (Karosserie-Montagearbeiten) prüfen",
+  "varianten": [
+    {"pr_nummer": "3JG", "bezeichnung": "Glasschiebedach mit elektrischer Betätigung (Lade-/Fahrgastraum)", "quelle": "t4wiki:Ausstattungsnummer"},
+    {"pr_nummer": "3EF", "bezeichnung": "Glasschiebe-/Aufstelldach im Fahrerhaus, elektrisch betätigt, mit Jalousie", "quelle": "t4wiki:Ausstattungsnummer"},
+    {"pr_nummer": "ZD1", "bezeichnung": "Glasschiebe-/Ausstelldach im Fahrerhaus", "quelle": "t4wiki:Ausstattungsnummer"},
+    {"pr_nummer": "3JA / 3EA", "bezeichnung": "ohne Dacheinsatz im Fahrgastraum / im Fahrerhaus", "quelle": "t4wiki:Ausstattungsnummer"}
+  ],
+  "aufbau": [
+    {"teil": "Blendrahmen (U-förmig)", "beschreibung": "Unter dem Dach verschraubt; trägt Wasserrinne, Mechanik und Züge. Im Forum als Teilenummer 7D1 877 611 genannt (nur aus dem Thread, nicht verifiziert). Als Einzelteil laut Thread kaum noch zu bekommen – das Dach werde nur komplett angeboten; Tipp dort: VW Classic Parts anfragen.", "quelle": "t4forum-panoramadach"},
+    {"teil": "Innerer Abdeckrahmen", "beschreibung": "Kunststoff, mit Clips befestigt; wird mit dem Alter spröde und bricht. Hat laut einem Beitrag für die Entwässerung keine Funktion.", "quelle": "t4forum-panoramadach"},
+    {"teil": "Hintere Querrinne („Brücke“)", "beschreibung": "Fängt das Wasser an der hinteren Dachkante auf und leitet es nach links und rechts in die seitlichen Rinnen.", "quelle": "t4forum-panoramadach"},
+    {"teil": "Antrieb", "beschreibung": "Elektromotor mit Zügen im Rahmen. In Kleinanzeigen wird als T4-Schiebedachmotor die Nummer 701 959 731 B genannt (unbestätigt, Zuordnung zum großen Dach offen).", "quelle": ["t4forum-panoramadach", "websuche"]},
+    {"teil": "Schalter", "beschreibung": "Beim Schiebedach vorn sitzt der Schalter E8 in der vorderen Innenleuchte (Teilenummer 1H0 959 728). Die Innenleuchte hat dafür einen Klemme-15-Anschluss; die vordere Innenleuchte kann über das Schiebedach mit abgesichert sein.", "quelle": "t4wiki:Innenbeleuchtung"}
+  ],
+  "wasserablaeufe": {
+    "prinzip": "Das Dach ist konstruktiv nicht völlig dicht: Wasser, das an der Deckeldichtung vorbeiläuft, wird in Rinnen gesammelt und über Schläuche in den Karosseriesäulen nach unten abgeführt.",
+    "anzahl": "WIDERSPRÜCHLICH: ein Beitrag nennt 3 Ablaufschläuche je Seite (Enden in B-, C- und D-Säule), ein anderer 4 Abläufe insgesamt (2 vorn, 2 hinten, keine in der Mitte). Am Fahrzeug zählen.",
+    "ablaufventile": "Am unteren Schlauchende sitzt ein Ventil, das mit Schmutz zusetzt – dann staut sich das Wasser und läuft in den Innenraum. Im Forum wird empfohlen, die Ventile zu entfernen.",
+    "reinigung": "Mit Druckluft von oben in den Schlauch blasen (Luftpistole fest aufsetzen), sodass Ventil, Wasser und Schmutz unten herausgedrückt werden.",
+    "quelle": "t4forum-panoramadach"
+  },
+  "typische_fehler": [
+    {"symptom": "Wasser tropft aus den seitlichen Leseleuchten", "ursache": "Blendrahmen aus den Clips gesprungen", "quelle": "t4forum-panoramadach"},
+    {"symptom": "Wasser tropft direkt am Dachausschnitt / auf die Schiebeabdeckung", "ursache": "Blendrahmen bzw. Ablaufrinne gebrochen oder fehlt", "quelle": "t4forum-panoramadach"},
+    {"symptom": "Wasser im Innenraum nach Regen, besonders bei schräg geparktem Fahrzeug oder in der ersten Kurve", "ursache": "Ablaufschläuche/-ventile verstopft", "quelle": ["t4forum-panoramadach", "t4forum-glasdach"]},
+    {"symptom": "Dach lässt sich schwer oder gar nicht bewegen", "ursache": "Moos/Schmutz in der Dichtung, verharzte Schienen", "hinweis": "Erfahrung stammt aus einem T5-Thread, Prinzip übertragbar", "quelle": "websuche"}
+  ],
+  "pflege": [
+    {"massnahme": "Schienen reinigen und mit Spezialfett fetten, Funktion prüfen", "intervall": "alle 30.000 km (VW-Inspektionsplan)", "quelle": "t4wiki:Inspektion"},
+    {"massnahme": "Dichtung reinigen (Moos!) und mit Gummipflege behandeln", "intervall": "jährlich", "quelle": "t4forum-glasdach"},
+    {"massnahme": "Abläufe prüfen: etwas Wasser in die Rinne gießen und kontrollieren, ob es unten am Fahrzeug austritt", "intervall": "jährlich, vor dem Winter", "quelle": "t4forum-panoramadach"}
+  ],
+  "offene_fragen": [
+    "Hersteller des Dachs (Webasto? Golde/Rockwell?) – in keiner Quelle genannt",
+    "Glasmaße und Ausschnittgröße",
+    "Lage von Sicherung und Relais des Schiebedachmotors im Stromlaufplan 1994",
+    "Notbetätigung (Kurbel/Innensechskant am Motor?)",
+    "Genaue Zahl und Austrittsstellen der Abläufe",
+    "Teilenummern für Dichtungen, Blendrahmen, Motor – per ETKA/VW Classic Parts verifizieren",
+    "Zwei PDF-Anhänge mit Explosionszeichnungen im T4Forum-Thread (Panoramadach 1/2) konnten nicht abgerufen werden – nach Anmeldung im Forum laden"
+  ]
+}

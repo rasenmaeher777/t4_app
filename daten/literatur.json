@@ -1,0 +1,61 @@
+{
+  "_hinweis": "Bücher und weiterführende Quellen. Buchinhalte konnten nicht online eingesehen werden (urheberrechtlich geschützt) – hier stehen nur bibliografische Angaben. \"bestaetigt\": false = Angabe stammt nur aus Händler-/eBay-Listings und sollte vor dem Kauf geprüft werden.",
+  "buecher": [
+    {
+      "titel": "So wird's gemacht, Band 75: VW Caravelle / Transporter / Multivan / California T4 von 9/90 bis 1/03",
+      "autor": "Hans-Rüdiger Etzold",
+      "verlag": "Delius Klasing",
+      "isbn": "978-3-7688-0738-8 (Print, laut Händlerlisting) · 978-3-667-12466-1 (ePDF, 19. Auflage)",
+      "passt_zu_meinem_bus": "ja – deckt den gesamten T4-Zeitraum ab; Diesel-Abdeckung (AAB) im Inhaltsverzeichnis prüfen",
+      "bestaetigt": false
+    },
+    {
+      "titel": "Jetzt helfe ich mir selbst: VW Transporter/Caravelle »T4« (90–95)",
+      "autor": "Dieter Korp",
+      "verlag": "Motorbuch Verlag",
+      "isbn": null,
+      "passt_zu_meinem_bus": "ja – genau der Zeitraum vor der Produktaufwertung; Bandnummer und ISBN noch ermitteln (Deutsche Nationalbibliothek)",
+      "bestaetigt": false
+    },
+    {
+      "titel": "Jetzt helfe ich mir selbst, Band 227: VW Transporter T4 / Caravelle ab Baujahr 1996",
+      "autor": "Dieter Korp",
+      "verlag": "Motorbuch Verlag",
+      "isbn": "978-3-613-02192-1",
+      "passt_zu_meinem_bus": "nur eingeschränkt – behandelt die Fahrzeuge ab der Produktaufwertung 1996",
+      "bestaetigt": false
+    },
+    {
+      "titel": "Reparaturanleitung Nr. 1069: VW Transporter T4, Benzin- und Dieselmotoren, 12/1990–1995",
+      "autor": null,
+      "verlag": "Bucheli Verlag",
+      "isbn": "978-3-7168-1811-4",
+      "passt_zu_meinem_bus": "ja – genau der Zeitraum",
+      "bestaetigt": false
+    },
+    {
+      "titel": "VW T4 Transporter Diesel (1990 – June 2003) – Owners Workshop Manual",
+      "autor": null,
+      "verlag": "Haynes",
+      "isbn": null,
+      "passt_zu_meinem_bus": "ja (englisch); ISBN noch ermitteln",
+      "bestaetigt": false
+    }
+  ],
+  "hersteller_dokumentation": [
+    {"name": "VW-Reparaturleitfäden T4 (Motor AAB, Karosserie-Montagearbeiten, Stromlaufpläne)", "bezug": "erWin – Elektronische Reparatur- und Werkstattinformation von Volkswagen (kostenpflichtig, stundenweise buchbar)", "hinweis": "Einzige verbindliche Quelle für Anzugsmomente, Stromlaufpläne und das Schiebedach", "siehe": "recherche/t4-wiki/seiten/erwin.md, reparaturleitfaden.md"},
+    {"name": "Selbststudienprogramme (SSP) von VW", "bezug": "siehe T4-Wiki-Seite Selbststudienprogramm", "siehe": "recherche/t4-wiki/seiten/selbststudienprogramm.md"},
+    {"name": "ETKA (Elektronischer Teilekatalog) / VW Classic Parts", "bezug": "https://volkswagen-classic-parts.com/", "hinweis": "zum Verifizieren von Teilenummern anhand der FIN"}
+  ],
+  "online_communities": [
+    {"name": "T4-Wiki", "url": "https://www.t4-wiki.de/", "hinweis": "Hauptquelle dieser Recherche"},
+    {"name": "T4Forum.de", "url": "https://www.t4forum.de/"},
+    {"name": "TX-Board", "url": "https://tx-board.de/", "hinweis": "blockierte am Recherchetag automatisierte Abrufe (HTTP 503)"},
+    {"name": "Bulliforum", "url": "https://www.bulliforum.com/"}
+  ],
+  "im_t4_wiki_verlinkte_presseartikel": [
+    {"titel": "Autobild: VW Caravelle T4 (1990–2003) – So teuer ist Bus-Fahren", "url": "http://www.autobild.de/artikel/vw-caravelle-t4-1990-2003-_39313.html"},
+    {"titel": "Focus Online: Fahrbericht VW T4 Multivan / Caravelle", "url": "http://www.focus.de/auto/fahrberichte/tid-6294/fahrbericht-vw-t4-multivan-caravelle_aid_60806.html"},
+    {"titel": "auto motor und sport: VW T4 Kaufberatung – Technische Daten", "url": "https://www.auto-motor-und-sport.de/oldtimer/vw-t4-1990-2003-multivan-caravelle-staerken-schwaechen/technische-daten/"}
+  ]
+}

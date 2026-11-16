@@ -1,0 +1,60 @@
+{
+  "_hinweis": "Zentrale Quellenliste. Alle anderen Dateien in daten/ verweisen über die Schlüssel (z. B. \"t4wiki:AAB\") hierher. Schlüssel mit Präfix t4wiki: verweisen auf https://www.t4-wiki.de/wiki/<Seitentitel>; die Rohtexte liegen unter recherche/t4-wiki/seiten/.",
+  "abgerufen": "2026-11-15",
+  "quellen": {
+    "t4wiki": {
+      "name": "T4-Wiki",
+      "url": "https://www.t4-wiki.de/",
+      "lizenz": "CC BY 2.0 DE (laut https://www.t4-wiki.de/wiki/Lizenzbestimmungen) – Namensnennung erforderlich, Lizenz muss bei Weitergabe genannt werden",
+      "verlaesslichkeit": "hoch (Community-Wiki, viele Angaben aus VW-Reparaturleitfäden; einzelne Seiten sind von 2009–2014 – Preise sind veraltet)",
+      "lokal": "recherche/t4-wiki/ (800 Seiten als Markdown, index.json, teilenummern.json, bilder/)"
+    },
+    "adac": {
+      "name": "ADAC Autokatalog – VW Nutzfahrzeuge T4 Multivan 2.4 D (03/91–12/95)",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw-nutzfahrzeuge/transporter/t4/264156/",
+      "lizenz": "urheberrechtlich geschützt – nur Fakten übernehmen, nicht den Text",
+      "verlaesslichkeit": "hoch (Herstellerangaben); Werte gelten für die Basisausführung, Sonderausstattung (Schiebedach!) erhöht das Leergewicht",
+      "lokal": "recherche/web/adac-multivan-2.4d.md"
+    },
+    "wikipedia-de": {
+      "name": "Wikipedia (de): VW T4",
+      "url": "https://de.wikipedia.org/wiki/VW_T4",
+      "lizenz": "CC BY-SA 4.0",
+      "verlaesslichkeit": "mittel bis hoch",
+      "lokal": "recherche/web/wikipedia-de-vw-t4.md"
+    },
+    "wikipedia-en": {
+      "name": "Wikipedia (en): Volkswagen Transporter (T4) / List of Volkswagen Group diesel engines",
+      "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(T4)",
+      "lizenz": "CC BY-SA 4.0",
+      "verlaesslichkeit": "mittel",
+      "lokal": "recherche/web/wikipedia-en-vw-t4.md, recherche/web/wikipedia-en-vag-diesel.md"
+    },
+    "t4forum-panoramadach": {
+      "name": "T4Forum.de – Thread „Panoramadach Schiebedach beim Multivan undicht“ (2016, Multivan Bj. 1993)",
+      "url": "https://www.t4forum.de/forum/index.php?thread/235033-panoramadach-schiebedach-beim-multivan-undicht/",
+      "lizenz": "Forenbeiträge – nur sinngemäß verwenden",
+      "verlaesslichkeit": "mittel (Erfahrungsberichte von Haltern, Angaben teils widersprüchlich)",
+      "lokal": "recherche/web/foren-schiebedach.md"
+    },
+    "t4forum-glasdach": {
+      "name": "T4Forum.de – Thread „Neues vom Glasschiebedachwasserfall“ (2013, T4 Bj. 1999, Hubdach)",
+      "url": "https://www.t4forum.de/forum/index.php?thread/193742-neues-vom-glasschiebedachwasserfall/",
+      "lizenz": "Forenbeiträge – nur sinngemäß verwenden",
+      "verlaesslichkeit": "mittel; betrifft das kleine Hubdach vorne, nicht das große Dach",
+      "lokal": "recherche/web/foren-schiebedach.md"
+    },
+    "paintscratch": {
+      "name": "PaintScratch – Silver Gray Metallic LD7V/C1 (VW Eurovan = T4 Nordamerika)",
+      "url": "https://www.paintscratch.com/touch_up_paint/Volkswagen/1993-Volkswagen-Eurovan-Silver-Gray-Metallic-Clearcoat-LD7V-C1.html",
+      "lizenz": "Händlerseite – nur Fakt (Farbcode) übernehmen",
+      "verlaesslichkeit": "mittel"
+    },
+    "websuche": {
+      "name": "Websuche (avtotachki.com, AutoHints, Händlerlisten, eBay-Buchlistings)",
+      "url": null,
+      "lizenz": "–",
+      "verlaesslichkeit": "niedrig bis mittel – nur als Zweitbeleg oder ausdrücklich als unbestätigt markiert verwendet"
+    }
+  }
+}

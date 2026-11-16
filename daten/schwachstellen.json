@@ -1,0 +1,34 @@
+{
+  "_hinweis": "Bekannte Schwachstellen und Prüfpunkte, gefiltert auf T4 Bj. 1994 / Multivan / AAB. \"relevanz\": hoch = betrifft genau dieses Baujahr bzw. diesen Motor; mittel = betrifft alle frühen T4; Einträge zu TDI, Automatik-Problemen mit TDI usw. wurden weggelassen.",
+  "karosserie_rost": [
+    {"titel": "Baujahre 1994/1995 rosten überdurchschnittlich", "beschreibung": "Ende 1993 bis Anfang 1994 stellte VW auf Wasserbasislack um. In der Anlaufphase gab es Probleme, weshalb T4 aus 1994 und 1995 als besonders rostanfällig gelten. Am stärksten betroffen waren weiße Fahrzeuge (dünnerer Lackauftrag); Metallic- und Perleffekt-Lacke gelten als weniger anfällig – das spricht für Silbergrau Metallic.", "relevanz": "hoch", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Schweißnähte A-Säule und C-Säule links", "beschreibung": "Risse im Lack an den Karosserie-Verschweißungen (A-Säule oben und nahe Motorhaube, C-Säule links) führen zu Rostnestern, die sich nur aufwendig und oft nur vorübergehend beseitigen lassen.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Radläufe und untere Ecke der Schiebetür", "beschreibung": "Dauerbelastung durch Streusalz und Dreck; trotz Teilverzinkung typische Roststellen. Oft schon (unterschiedlich gut) repariert – Innenseite abtasten.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Trittstufen vorn", "beschreibung": "Erst ab MJ 1999 ab Werk mit Schutzfolie. Bei älteren T4 ist der Lack an den Kanten häufig durchgescheuert; auch das Blech unter den Kunststoff-Trittstufen kann unsichtbar rosten.", "relevanz": "hoch", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Tankklappe innen", "beschreibung": "Rost an der Innenseite der Tankklappe – baujahrunabhängig.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Windschutzscheibenrahmen", "beschreibung": "Nach unsauber ausgeführtem Scheibenwechsel kann Feuchtigkeit unter die Dichtung ziehen: Rost und Wasser im Innenraum.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Motorraum: Luftfilterkasten und Batterie", "beschreibung": "Zwischen Luftfilterkasten und Kotflügel sowie unter der Batterieabdeckung sammeln sich Dreck und Feuchtigkeit.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"}
+  ],
+  "motor": [
+    {"titel": "Zylinderkopfdichtung (Weichstoff)", "beschreibung": "Frühe Saugdiesel hatten eine Weichstoff-Zylinderkopfdichtung, die teils unter 100.000 km versagte. Beim Wechsel wird eine Metalldichtung anderer Stärke verbaut – dann müssen auch die Wirbelkammern ersetzt werden. Die Dichtung ist günstig, der Wechsel aufwendig. Das Wiki nennt als Grenze einmal 10/1993 und einmal 01/1995.", "relevanz": "hoch", "quelle": ["t4wiki:Zylinderkopfdichtung", "t4wiki:Zylinderkopf"]},
+    {"titel": "Vakuumpumpe: falsches Ersatzteil zerstört den Motor", "beschreibung": "AAB bis Motor-Nr. 272 502 (ca. 05/1994) haben einen anderen Zylinderkopf. Die spätere Einheits-Vakuumpumpe passt nicht; wird sie mit Gewalt montiert, bricht beim ersten Start das Pumpengehäuse, im schlimmsten Fall die Nockenwelle.", "relevanz": "hoch", "quelle": "t4wiki:Vakuumpumpe"},
+    {"titel": "Zahnriemen und Wasserpumpe", "beschreibung": "Die Wasserpumpe läuft im Zahnriementrieb und spannt bei Bj. 1994 sogar den Riemen. Anders als bei den TDI sind Riemenrisse durch Wasserpumpenschäden beim AAB sehr selten; das 120.000-km-Intervall gilt als ausnutzbar. Öl- oder Dieselaustritt in Riemennähe (Ölpumpe, Wellendichtringe, Einspritzpumpe) verkürzt die Lebensdauer drastisch.", "relevanz": "hoch", "quelle": ["t4wiki:Zahnriemen (Problematik)", "t4wiki:Wasserpumpe"]},
+    {"titel": "Vorglühanlage fällt aus: Steckplatz 12 der Zentralelektrik", "beschreibung": "Klassiker: Kontaktkorrosion oder verschmorte, aufgeweitete Kontakte am Steckplatz des Vorglührelais. Folge sind Startprobleme bei Kälte. Reparaturanleitung im Wiki vorhanden.", "relevanz": "hoch", "quelle": "t4wiki:Zentralelektrik"},
+    {"titel": "Einspritzpumpe undicht", "beschreibung": "Die mechanische Bosch-VE-Pumpe wird mit dem Alter an den Dichtungen undicht; einige Dichtungen lassen sich eingebaut tauschen. Auslaufender Diesel gefährdet den Zahnriemen.", "relevanz": "mittel", "quelle": "t4wiki:Einspritzpumpe"},
+    {"titel": "Hydrostößel-Klackern", "beschreibung": "Leichtes Klackern direkt nach dem Start ist normal und muss mit steigender Drehzahl verschwinden; sonst falsches Öl oder Defekt.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Überhitzung / Zylinderkopfrisse", "beschreibung": "Websuche nennt Zylinderkopfrisse nach Überhitzung als teuersten AAB-Schaden. Nicht durch das T4-Wiki belegt – vor Veröffentlichung mit einer zweiten Quelle absichern.", "relevanz": "mittel", "bestaetigt": false, "quelle": "websuche"},
+    {"titel": "Fahrleistungen", "beschreibung": "Kein Defekt, aber eine Eigenschaft: 78 PS bei knapp 1,8 t – für normalen Betrieb ausreichend, voll beladen oder mit Anhänger zäh.", "relevanz": "hoch", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"}
+  ],
+  "innenraum_ausstattung": [
+    {"titel": "Schiebedach undicht", "beschreibung": "Siehe schiebedach.json – verstopfte Abläufe/Ablaufventile, gebrochener oder verrutschter Blendrahmen, gealterte Dichtungen.", "relevanz": "hoch", "quelle": ["t4forum-panoramadach", "t4wiki:Gebrauchtwagen-Checkliste"]},
+    {"titel": "Klapptisch klemmt", "beschreibung": "Bei Multivan vor MJ 2000 klemmt der Klapptisch häufig.", "relevanz": "hoch", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Feuchtigkeit im Fußraum", "beschreibung": "Mögliche Ursachen: undichte Windschutzscheibe, Schiebedach, undichter Wärmetauscher, Ablaufschlauch der Klimaanlage. Test: mit dem Wasserschlauch abspritzen oder Waschanlage.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"},
+    {"titel": "Schalthebel-Abdeckung am Boden löst sich", "beschreibung": "Bei älteren T4 häufig; mehr Lärm und Zugluft von unten.", "relevanz": "mittel", "quelle": "t4wiki:Gebrauchtwagen-Checkliste"}
+  ],
+  "weiterlesen": [
+    "recherche/t4-wiki/seiten/gebrauchtwagen-checkliste.md (vollständige Checkliste, ca. 44.000 Zeichen)",
+    "recherche/t4-wiki/seiten/geraeusche-datenbank.md",
+    "recherche/t4-wiki/seiten/startprobleme.md",
+    "recherche/t4-wiki/seiten/fehlersuche.md"
+  ]
+}

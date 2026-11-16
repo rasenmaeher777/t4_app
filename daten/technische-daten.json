@@ -1,0 +1,99 @@
+{
+  "_hinweis": "Fahrzeugdaten für T4 Multivan 2.4 D (AAB), Stand vor der Großen Produktaufwertung 1996. ADAC-Werte gelten für die Basisausführung mit Schaltgetriebe; das große Glasschiebedach und weitere Sonderausstattung verändern Leergewicht und Zuladung – maßgeblich sind die eigenen Fahrzeugpapiere.",
+  "masse": [
+    {"name": "Länge", "wert": 4707, "einheit": "mm", "quelle": "adac"},
+    {"name": "Breite", "wert": 1840, "einheit": "mm", "quelle": "adac"},
+    {"name": "Breite inkl. Außenspiegel", "wert": 2175, "einheit": "mm", "quelle": "adac"},
+    {"name": "Höhe", "wert": 1920, "einheit": "mm", "quelle": "adac"},
+    {"name": "Radstand", "wert": 2920, "einheit": "mm", "hinweis": "kurzer Radstand – den Multivan gab es nur so", "quelle": ["adac", "t4wiki:Modellübersicht"]},
+    {"name": "Wendekreis", "wert": 11.7, "einheit": "m", "quelle": "adac"},
+    {"name": "Tankinhalt", "wert": 80, "einheit": "l", "hinweis": "Kunststofftank unter den Vordersitzen, Einfüllstutzen links", "quelle": ["adac", "t4wiki:Kraftstoffbehälter"]}
+  ],
+  "gewichte": [
+    {"name": "Leergewicht (EU)", "wert": 1780, "einheit": "kg", "quelle": "adac"},
+    {"name": "Zulässiges Gesamtgewicht", "wert": 2590, "einheit": "kg", "quelle": "adac"},
+    {"name": "Zuladung", "wert": 810, "einheit": "kg", "quelle": "adac"},
+    {"name": "Anhängelast gebremst (12 %)", "wert": 2000, "einheit": "kg", "quelle": "adac"},
+    {"name": "Anhängelast ungebremst", "wert": 700, "einheit": "kg", "quelle": "adac"},
+    {"name": "Zulässiges Gesamtzuggewicht", "wert": 4500, "einheit": "kg", "quelle": "adac"},
+    {"name": "Stützlast", "wert": 100, "einheit": "kg", "quelle": "adac"},
+    {"name": "Dachlast", "wert": 100, "einheit": "kg", "quelle": "adac"}
+  ],
+  "fahrleistungen": [
+    {"name": "Höchstgeschwindigkeit", "wert": 137, "einheit": "km/h", "quelle": ["adac", "t4wiki:Motorkennbuchstabe"]},
+    {"name": "0–100 km/h", "wert": 24.7, "einheit": "s", "quelle": "t4wiki:Motorkennbuchstabe"},
+    {"name": "Verbrauch", "wert": null, "einheit": "l/100 km", "hinweis": "ADAC: keine Angabe. Unbestätigter Web-Wert: ca. 9,4 l/100 km kombiniert (avtotachki.com, Transporter 1994, Schaltgetriebe). Besser: eigenen Verbrauch dokumentieren oder Spritmonitor-Auswertung ergänzen.", "quelle": "websuche"},
+    {"name": "Schadstoffklasse ab Werk", "wert": "ohne Kat", "einheit": null, "hinweis": "Kfz-Steuer laut ADAC 558 €/Jahr ohne Befreiung; mit H-Kennzeichen (ab 30 Jahren, also seit 2024 möglich) gilt die Pauschalsteuer", "quelle": "adac"}
+  ],
+  "karosserie": [
+    {"name": "Aufbau", "wert": "Bus, 4 Türen (2 vorn, 1 Schiebetür rechts, Heckklappe)", "quelle": ["adac", "t4wiki:Modellübersicht"]},
+    {"name": "Sitzplätze", "wert": "6 (maximal 7)", "hinweis": "Multivan I: fest montierte, ausbaubare Einzelsitze gegen die Fahrtrichtung in der 2. Reihe, umklappbare Schlafsitzbank, Klapptisch", "quelle": ["adac", "t4wiki:Modellübersicht"]},
+    {"name": "Vorderwagen", "wert": "kurzer Vorderwagen (bis MJ 1995 bei allen Modellen)", "quelle": "t4wiki:Modellübersicht"},
+    {"name": "Cockpit", "wert": "Ausführung 1991–1995, gepolstertes Armaturenbrett (PKW-Modelle), mechanischer Tacho, grüne Instrumentenbeleuchtung, keine Service-Intervallanzeige", "quelle": ["t4wiki:Modellübersicht", "t4wiki:Inspektion"]},
+    {"name": "Boden Fahrgastraum", "wert": "Gummiboden (Multivan); Allstar/Classic laut Wikipedia mit durchgehendem Stoffboden", "quelle": ["t4wiki:Modellübersicht", "wikipedia-de"]},
+    {"name": "Herstellergarantien (damals)", "wert": "Lack 3 Jahre, Durchrostung 6 Jahre", "quelle": "adac"}
+  ],
+  "antrieb": [
+    {"name": "Antriebsart", "wert": "Frontantrieb (Syncro-Allrad war ab 1993 Option)", "quelle": ["adac", "wikipedia-de"]},
+    {"name": "Getriebe", "wert": "5-Gang-Schaltgetriebe Typ 02B", "hinweis": "02B wurde bei den drehmomentschwächeren Motoren (AAB, ABL) verbaut; 5. Gang ist ohne Zerlegen des Getriebes erreichbar und lässt sich verlängern", "quelle": "t4wiki:Getriebe"},
+    {"name": "Getriebeöl-Füllmenge", "wert": 2.5, "einheit": "l", "hinweis": "02B-Getriebe laut Tabelle; Syncro 3,0 l", "quelle": "t4wiki:Getriebekennbuchstabe"},
+    {"name": "Beispiel-Übersetzung (GKB CHP, 08/92–08/93)", "wert": "Achsantrieb 4,611 · 1. 3,778 · 2. 2,118 · 3. 1,458 · 4. 1,029 · 5. 0,837 · R 3,600", "hinweis": "Nur als Beispiel für ein AAB-Getriebe – der eigene GKB bestimmt die Werte (vollständige Tabelle im Rohtext getriebekennbuchstabe.md)", "quelle": "t4wiki:Getriebekennbuchstabe"},
+    {"name": "Automatik (falls verbaut)", "wert": "4-Gang Typ 098 (bis ca. 1995), ATF-Füllung 6,1 l (Wechselmenge 3,5 l)", "quelle": ["t4wiki:Getriebe", "t4wiki:Getriebekennbuchstabe"]}
+  ],
+  "fahrwerk_bremsen": [
+    {"name": "Federung vorn", "wert": "Drehstabfedern", "quelle": "adac"},
+    {"name": "Federung hinten", "wert": "Schraubenfedern (Schräglenker-Hinterachse)", "quelle": ["adac", "wikipedia-de"]},
+    {"name": "Lenkung", "wert": "Zahnstangenlenkung, Servolenkung Serie (beim Multivan und allen Fünfzylindern von Anfang an)", "quelle": ["adac", "wikipedia-de"]},
+    {"name": "Bremse vorn", "wert": "Scheibenbremse (je nach PR-Nummer Lucas C54 = 1LP/1LA oder ATE FN3 15\" = 1LU)", "hinweis": "PR-Nummer auf dem Datenträger prüfen", "quelle": ["adac", "t4wiki:Vorderradbremse"]},
+    {"name": "Bremse hinten", "wert": "Trommelbremse mit automatischer Nachstellung (bis MJ 1995)", "quelle": ["adac", "t4wiki:Trommelbremse"]},
+    {"name": "Bremskraftregelung", "wert": "mechanischer, lastabhängiger Bremsdruckminderer an der Hinterachse (bei Fahrzeugen ohne ABS Bosch 5.3)", "hinweis": "Tieferlegung hinten verfälscht die Regelung", "quelle": "t4wiki:Bremsdruckminderer"},
+    {"name": "ABS", "wert": "Sonderausstattung (damals 1.294 €)", "quelle": "adac"}
+  ],
+  "raeder_reifen": [
+    {"name": "Serienbereifung", "wert": "195/70 R15 97 S (reinforced)", "quelle": "adac"},
+    {"name": "Alternative ab Werk", "wert": "205/65 R15 auf 7J×15 (z. B. Alufelge „Gullideckel“ ET 35 oder „Blockdesign“ ET 46)", "quelle": "t4wiki:Rad"},
+    {"name": "Stahlfelge", "wert": "6J×15 H2", "hinweis": "Einpresstiefen 44 bzw. 55 mm je nach Ausführung – Tabelle im Rohtext rad.md prüfen", "quelle": "t4wiki:Rad"},
+    {"name": "Lochkreis / Mittenzentrierung", "wert": "5×112 / 57,1 mm", "quelle": "t4wiki:Rad"},
+    {"name": "Anzugsmoment Radschrauben", "wert": 160, "einheit": "Nm", "hinweis": "T4 bis 12/1995; nach ca. 50 km nachziehen. Radschraube 701 601 139 B", "quelle": "t4wiki:Rad"},
+    {"name": "Reifendruck 195/70 R15 97 S (bis 12/1995)", "wert": "halbe Beladung 2,6 / 3,4 bar · volle Beladung 2,6 / 3,4 bar (vorn / hinten)", "hinweis": "Das Wiki führt zwei Tabellen (vermutlich nach Achslast/Variante; zweite Tabelle 3,0 / 3,4 bar). Vor Veröffentlichung mit Tankklappen-Aufkleber bzw. Bordbuch abgleichen.", "quelle": "t4wiki:Rad"},
+    {"name": "Reifendruck 205/65 R15 98 S (bis 12/1995)", "wert": "2,6 / 3,4 bar (vorn / hinten)", "hinweis": "siehe Hinweis oben", "quelle": "t4wiki:Rad"}
+  ],
+  "elektrik": [
+    {"name": "Bordnetz", "wert": "12 V", "quelle": "t4wiki:Batterie"},
+    {"name": "Starterbatterie", "wert": "original 80 Ah; größere 95-Ah-Batterie passt mit etwas mehr Platzbedarf", "quelle": "t4wiki:Batterie"},
+    {"name": "Zentralelektrik", "wert": "Sicherungs-/Relaisträger im Fahrerfußraum-Bereich; Hauptsicherungsleiste ist Teil der Zentralelektrik", "quelle": ["t4wiki:Zentralelektrik", "t4wiki:Sicherungsleiste"]},
+    {"name": "Streifensicherungen", "wert": "u. a. für Vorglühanlage, Kühlerlüfter, ABS, Lichtmaschine", "quelle": "t4wiki:Sicherung"},
+    {"name": "Diagnose", "wert": "Motor ohne Steuergerät – keine Eigendiagnose des Motors. Service-Intervalle müssen von Hand über Kilometerstand/Datum verfolgt werden.", "quelle": ["t4wiki:Förderbeginn (AAB)", "t4wiki:Inspektion"]}
+  ],
+  "sicherungen_hauptleiste": {
+    "_hinweis": "Belegung laut T4-Wiki (gilt baujahrübergreifend; einzelne Verbraucher wie Wegfahrsicherung/Zuheizer gibt es 1994 nicht). Vollständige Liste (Nr. 18–22) im Rohtext recherche/t4-wiki/seiten/sicherungsleiste.md.",
+    "quelle": "t4wiki:Sicherungsleiste",
+    "sicherungen": [
+      {"nr": 1, "klemme": "56b", "ampere": 10, "verbraucher": "Abblendlicht links, Leuchtweitenregulierung links"},
+      {"nr": 2, "klemme": "56b", "ampere": 10, "verbraucher": "Abblendlicht rechts, Leuchtweitenregulierung rechts"},
+      {"nr": 3, "klemme": "58", "ampere": 10, "verbraucher": "Kennzeichenbeleuchtung, Instrumentenbeleuchtung"},
+      {"nr": 4, "klemme": "X", "ampere": 15, "verbraucher": "Heckscheibenwischer, Entlastungsrelais II, Leitungsverteiler Kl. Xa"},
+      {"nr": 5, "klemme": "X", "ampere": 15, "verbraucher": "Scheibenwisch-/-waschanlage, beheizbare Spritzdüse"},
+      {"nr": 6, "klemme": "X", "ampere": 30, "verbraucher": "Frischluftgebläse vorn, Ansteuerung Klimaanlage"},
+      {"nr": 7, "klemme": "58R", "ampere": 10, "verbraucher": "Standlicht rechts, Schlusslicht rechts"},
+      {"nr": 8, "klemme": "58L", "ampere": 10, "verbraucher": "Standlicht links, Schlusslicht links"},
+      {"nr": 9, "klemme": null, "ampere": null, "verbraucher": "nicht belegt"},
+      {"nr": 10, "klemme": "X", "ampere": 15, "verbraucher": "Nebelschlussleuchte, Nebelscheinwerfer"},
+      {"nr": 11, "klemme": "56a", "ampere": 10, "verbraucher": "Fernlicht links"},
+      {"nr": 12, "klemme": "56a", "ampere": 10, "verbraucher": "Fernlicht rechts"},
+      {"nr": 13, "klemme": "15", "ampere": 10, "verbraucher": "Signalhorn / Doppeltonhorn"},
+      {"nr": 14, "klemme": "15", "ampere": 10, "verbraucher": "Rückfahrleuchte, Steuerung Fensterheber, Zentralverriegelung u. a."},
+      {"nr": 15, "klemme": "15", "ampere": 10, "verbraucher": "Geber G22 (Geschwindigkeit), Heizung Kurbelgehäuseentlüftung (Saugdiesel)"},
+      {"nr": 16, "klemme": "15", "ampere": 15, "verbraucher": "Blinkanlage, Handschuhfachleuchte"},
+      {"nr": 17, "klemme": "15", "ampere": 10, "verbraucher": "Relais Zusatzwasserheizung (falls vorhanden)"}
+    ]
+  },
+  "preise_1990er": {
+    "_hinweis": "Neupreise laut ADAC-Katalog, dort bereits in Euro umgerechnet.",
+    "quelle": "adac",
+    "grundpreis": 23205,
+    "aufpreise": {"Metallic-Lackierung": 1105, "Klimaanlage": 1735, "ABS": 1294, "Alufelgen": 1000, "Zentralverriegelung": 426, "Fensterheber elektrisch vorn": 409, "Radio alpha": 335, "Nebelscheinwerfer": 218},
+    "waehrung": "EUR",
+    "versicherungs_typklassen": "KH 14 / VK 11 / TK 16"
+  }
+}

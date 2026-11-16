@@ -1,0 +1,73 @@
+{
+  "_hinweis": "Technische Daten und Besonderheiten des Motors AAB. Quellenschlüssel siehe quellen.json.",
+  "bezeichnung": {
+    "motorkennbuchstabe": "AAB",
+    "spitzname": "„Schiffsdiesel“",
+    "bauart": "5-Zylinder-Reihen-Wirbelkammer-Dieselmotor (Saugdiesel), quer eingebauter Frontmotor",
+    "bauzeit": "09/1990 – 09/1998",
+    "stueckzahl": 432060,
+    "einordnung": "meistgebauter T4-Motor; gilt als der langlebigste T4-Motor. Nachfolger AJA (55 kW, mit Oxidationskatalysator, ab 04/1997).",
+    "quelle": ["t4wiki:AAB", "wikipedia-de"]
+  },
+  "kenndaten": [
+    {"name": "Hubraum", "wert": 2370, "einheit": "cm³", "quelle": "t4wiki:AAB"},
+    {"name": "Zylinder", "wert": 5, "einheit": null, "quelle": "t4wiki:AAB"},
+    {"name": "Ventile pro Zylinder", "wert": 2, "einheit": null, "hinweis": "10 Ventile gesamt, eine obenliegende Nockenwelle (SOHC), Hydrostößel", "quelle": ["adac", "t4wiki:Hydrostößel"]},
+    {"name": "Leistung", "wert": "57 kW (78 PS) bei 3700 U/min", "einheit": null, "hinweis": "Wikipedia nennt 77 PS – Rundungsunterschied", "quelle": ["t4wiki:AAB", "adac"]},
+    {"name": "Drehmoment", "wert": "164 Nm bei 1800–2200 U/min", "einheit": null, "hinweis": "ADAC: 164 Nm bei 1800 U/min", "quelle": ["t4wiki:AAB", "adac"]},
+    {"name": "Bohrung", "wert": 79.5, "einheit": "mm", "quelle": "t4wiki:AAB"},
+    {"name": "Hub", "wert": 95.5, "einheit": "mm", "quelle": "t4wiki:AAB"},
+    {"name": "Verdichtung", "wert": "23 : 1", "einheit": null, "hinweis": "WIDERSPRUCH im T4-Wiki: Seite „AAB“ nennt 23, die Tabelle „Motorkennbuchstabe“ nennt 22,5. Vor Veröffentlichung klären (Reparaturleitfaden).", "quelle": ["t4wiki:AAB", "t4wiki:Motorkennbuchstabe"]},
+    {"name": "Kraftstoff", "wert": "Diesel", "einheit": null, "quelle": "t4wiki:AAB"},
+    {"name": "Einspritzung", "wert": "rein mechanische Bosch-VE-Verteilereinspritzpumpe (VEP), Zapfendüsen, Wirbelkammer", "einheit": null, "hinweis": "kein Motorsteuergerät, keine Eigendiagnose", "quelle": ["t4wiki:Einspritzpumpe", "t4wiki:Förderbeginn (AAB)"]},
+    {"name": "Turbolader / Ladeluftkühler", "wert": "nein / nein", "einheit": null, "quelle": "t4wiki:AAB"},
+    {"name": "Abgasrückführung", "wert": "nein", "einheit": null, "quelle": "t4wiki:AAB"},
+    {"name": "Katalysator", "wert": "nein (ab Werk „ohne Kat“)", "einheit": null, "quelle": ["t4wiki:AAB", "adac"]},
+    {"name": "Nockenwellenantrieb", "wert": "Zahnriemen; zweiter Zahnriemen von der Nockenwelle zur Einspritzpumpe", "einheit": null, "quelle": "t4wiki:Zahnriemen"},
+    {"name": "Höchstgeschwindigkeit", "wert": 137, "einheit": "km/h", "quelle": ["t4wiki:Motorkennbuchstabe", "adac"]},
+    {"name": "Beschleunigung 0–100 km/h", "wert": 24.7, "einheit": "s", "quelle": "t4wiki:Motorkennbuchstabe"}
+  ],
+  "einspritzanlage": [
+    {"name": "Förderbeginn Sollwert", "wert": "1,00 ± 0,02 mm Hub (Messuhr)", "hinweis": "Bei Kontrolle tolerierbar: 0,93–1,07 mm, dann keine Einstellung nötig", "quelle": "t4wiki:Förderbeginn (AAB)"},
+    {"name": "Einstellwerkzeug", "wert": "Messuhr 0–3 mm mit Adapter VW 2066, Gegenhalter VW 3036, Absteckdorn 2064", "quelle": ["t4wiki:Förderbeginn (AAB)", "t4wiki:Einspritzpumpe"]},
+    {"name": "Kaltstartbeschleuniger", "wert": "Beim Einstellen/Prüfen des Förderbeginns darf der Kaltstartbeschleuniger (Kaltstartzug) nicht betätigt sein", "quelle": "t4wiki:Förderbeginn (AAB)"},
+    {"name": "Einspritzdüsen", "wert": "Zapfendüsen; Abspritzdruck neu 130–138 bar, Verschleißgrenze 120 bar", "hinweis": "Spaltenbedeutung in recherche/t4-wiki/seiten/einspritzduese.md gegenprüfen", "quelle": "t4wiki:Einspritzdüse"},
+    {"name": "Wärmeschutzdichtungen", "wert": "zwischen Düse und Zylinderkopf immer ersetzen; Seite mit Aussparung zum Zylinderkopf", "quelle": "t4wiki:Einspritzdüse"}
+  ],
+  "vorgluehanlage": [
+    {"name": "Steuerung", "wert": "Elektronik sitzt im Vorglührelais J52 (kein separates Steuergerät); Glühdauer abhängig von der Motortemperatur", "hinweis": "Vorglühen vermutlich nur unter ca. 30 °C, Größenordnung 5–45 s; Nachglühen ca. 120 s (Werte laut Wiki nicht gesichert)", "quelle": "t4wiki:Vorglühanlage"},
+    {"name": "Glühkerzen", "wert": "5 Stück, M12×1,25×21; VW N 102 130 01 (Beru) bzw. N 102 130 02 (Bosch)", "quelle": "t4wiki:Glühkerze"},
+    {"name": "Prüfwert", "wert": "ca. 8–10 A je Glühkerze, zusammen ca. 50 A (nicht direkt nach Zündung ein messen)", "quelle": "t4wiki:Glühkerze"},
+    {"name": "Vorglührelais", "wert": "191 911 261 C (ab FIN 70-N-100001, ab 03/1992)", "quelle": "t4wiki:Relais J52 (Glühkerzen)"}
+  ],
+  "pruefwerte": [
+    {"name": "Kompressionsdruck", "wert": "neu 34 bar, Verschleißgrenze 26 bar, max. Unterschied zwischen den Zylindern 5 bar", "hinweis": "Messung beim Saugdiesel über die Einspritzdüsen-Bohrungen", "quelle": "t4wiki:Kompressionsdruck"},
+    {"name": "Thermostat (Kühlmittelregler)", "wert": "öffnet ab ca. 87 °C, voll geöffnet bei 102–105 °C (Hub ca. 7 mm); Teilenummer 069 121 113", "hinweis": "Für warme Klimazonen gibt es eine 80-°C-Variante (075 121 113 D)", "quelle": "t4wiki:Kühlmittelregler"}
+  ],
+  "baujahr_grenzen_1994": {
+    "_hinweis": "Diese Änderungen fallen genau in den Zeitraum 1994/Anfang 1995 – die Motornummer entscheidet, welche Ausführung verbaut ist.",
+    "eintraege": [
+      {"thema": "Zahnriemenspannung / Wasserpumpe", "bis": "Motor-Nr. AAB 320 127 (01/1995)", "alt": "Keine Spannrolle, nur eine feste Umlenkrolle. Der Zahnriemen wird über die verschiebbare Wasserpumpe (Langlöcher) gespannt. Wasserpumpe 023 121 004, 18 Zähne.", "neu": "Ab AAB 320 128 (02/1995): halbautomatische Spannrolle, Wasserpumpe 074 121 005 (20 Zähne), Keilrippenriemen.", "fuer_bj_1994": "alte Ausführung (sehr wahrscheinlich)", "quelle": ["t4wiki:Wasserpumpe", "t4wiki:Spannrolle", "t4wiki:Zahnriemen"]},
+      {"thema": "Vakuumpumpe / Zylinderkopf", "bis": "Motor-Nr. AAB 272 502 (ca. 05/1994)", "alt": "Anderer Zylinderkopf – die spätere Einheits-Vakuumpumpe der 5-Zylinder-Diesel passt NICHT. Falsche Pumpe führt beim ersten Start zum Bruch des Pumpengehäuses, evtl. der Nockenwelle.", "neu": "Ab ca. 05/1994 gleiche Vakuumpumpe wie die 5-Zylinder-TDI.", "fuer_bj_1994": "UNKLAR – Motornummer prüfen!", "quelle": "t4wiki:Vakuumpumpe"},
+      {"thema": "Zylinderkopfdichtung", "bis": "01/1995 (laut Seite Zylinderkopf) bzw. 10/1993 (laut Seite Zylinderkopfdichtung)", "alt": "Weichstoff-Zylinderkopfdichtung („Papierdichtung“), Schäden teils schon unter 100.000 km.", "neu": "Metall-Zylinderkopfdichtung mit anderer Stärke. Beim Umrüsten müssen auch die Wirbelkammern ersetzt werden.", "fuer_bj_1994": "wahrscheinlich noch Weichstoffdichtung, sofern nie getauscht – die beiden Wiki-Seiten widersprechen sich beim Datum", "quelle": ["t4wiki:Zylinderkopf", "t4wiki:Zylinderkopfdichtung"]},
+      {"thema": "Zentralschraube Kurbelwelle", "bis": "Motor-Nr. AAB 424 605 (1997)", "alt": "kurze Schraube M18×1,5×65, ohne Unterlegscheibe", "neu": "lange Schraube M18×1,5×110", "fuer_bj_1994": "kurze Ausführung", "quelle": "t4wiki:Zentralschraube"},
+      {"thema": "Luftfilter", "bis": "MJ 1995", "alt": "Luftfiltereinsatz 044 129 620", "neu": "ab MJ 1996: 074 129 620", "fuer_bj_1994": "044 129 620", "quelle": "t4wiki:Luftfilter"}
+    ]
+  },
+  "anzugsmomente": [
+    {"bauteil": "Ölablassschraube (5-Zylinder)", "wert": 50, "einheit": "Nm", "hinweis": "mit neuem Dichtring", "quelle": "t4wiki:Motoröl"},
+    {"bauteil": "Ölfilter", "wert": "nur handfest", "einheit": null, "hinweis": "sonst Schäden an Filter/Ölkühler; Hohlschraube des Ölfilterhalters auf festen Sitz prüfen", "quelle": "t4wiki:Motoröl"},
+    {"bauteil": "Verschlussschraube Einspritzpumpe (Messuhr-Öffnung)", "wert": "15 (bei Undichtigkeit bis max. 25)", "einheit": "Nm", "hinweis": "Dichtring 8×11,5 (N 013 807 5) immer ersetzen", "quelle": "t4wiki:Förderbeginn (AAB)"},
+    {"bauteil": "Antriebsrad Einspritzpumpe an der Nockenwelle", "wert": "50 voranziehen, endgültig 100", "einheit": "Nm", "quelle": "t4wiki:Förderbeginn (AAB)"},
+    {"bauteil": "Zahnrad an der Einspritzpumpe", "wert": 50, "einheit": "Nm", "hinweis": "zu hohes Drehmoment kann das Rad sprengen", "quelle": "t4wiki:Einspritzpumpe"},
+    {"bauteil": "Zentralschraube Schwingungsdämpfer", "wert": "460+", "einheit": "Nm", "hinweis": "genauen Wert und Verfahren im Reparaturleitfaden nachschlagen", "quelle": "t4wiki:Schwingungsdämpfer"},
+    {"bauteil": "Nockenwellenrad-Schraube", "wert": "M12, SW19", "einheit": null, "hinweis": "beim AAB abweichend von den anderen 5-Zylindern (M14/SW22); Drehmoment im Rohtext/Leitfaden prüfen", "quelle": "t4wiki:Nockenwelle"}
+  ],
+  "sonstiges": [
+    {"name": "Nockenwellen-Wellendichtringe", "wert": "2 Stück, 32 × 47 × 10 mm", "quelle": "t4wiki:Nockenwelle"},
+    {"name": "Ölpumpe", "wert": "Sichelpumpe (Innenzahnradpumpe) vorn am Motorblock hinter dem Zahnriemenschutz – Ausbau aufwendig, am besten zusammen mit dem Zahnriemenwechsel", "quelle": "t4wiki:Ölpumpe"},
+    {"name": "Vakuumpumpe", "wert": "Pierburg-Kolbenpumpe mit Stößelantrieb über eigene Nocke, vorn am Zylinderkopf", "quelle": "t4wiki:Vakuumpumpe"},
+    {"name": "Sicherung 15 (10 A)", "wert": "versorgt beim Saugdiesel u. a. die Heizung der Kurbelgehäuseentlüftung und den Geschwindigkeitsgeber G22", "quelle": "t4wiki:Sicherungsleiste"},
+    {"name": "Pflanzenöl-Umbau", "wert": "Der AAB ist als Wirbelkammermotor ein beliebter Kandidat – eigene Wiki-Seite vorhanden", "quelle": "t4wiki:Pflanzenöl (Umbau AAB)"}
+  ]
+}

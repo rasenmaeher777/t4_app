@@ -1,0 +1,53 @@
+{
+  "_hinweis": "Steckbrief des konkreten Fahrzeugs. \"bekannt\" = Angaben des Halters. \"abgeleitet\" = aus Recherche für Baujahr 1994 + Motor AAB hergeleitet. \"am_fahrzeug_pruefen\" = Angaben, die nur der Fahrzeugdatenträger / die Fahrzeugpapiere eindeutig liefern.",
+  "bekannt": {
+    "hersteller": "Volkswagen (VW Nutzfahrzeuge)",
+    "baureihe": "T4 (Typ 70), vor der „Großen Produktaufwertung“ 1996 – kurzer Vorderwagen",
+    "modell": "Multivan",
+    "baujahr": 1994,
+    "motor": "2,4 l Fünfzylinder-Saugdiesel, Motorkennbuchstabe AAB",
+    "farbe": "Silbergrau Metallic",
+    "sonderausstattung": ["großes elektrisches Glasschiebedach"]
+  },
+  "abgeleitet": {
+    "modelljahr": {
+      "wert": "MJ 1994 (gebaut 01.08.1993–31.07.1994, 10. Stelle der FIN = R) oder MJ 1995 (gebaut ab 01.07.1994, 10. Stelle = S)",
+      "hinweis": "Ein 1994 gebauter T4 kann in beide Modelljahre fallen. Für Ersatzteile zählt das Modelljahr, nicht das Baujahr.",
+      "quelle": "t4wiki:Modelljahr"
+    },
+    "lackcode": {
+      "wert": "D7V (silbergrau-metallic, verwendet 09/1991–12/1995); als Lacknummer LD7V",
+      "hinweis": "Auf dem Fahrzeugdatenträger steht der Code 3-stellig hinter einem „L“. Achtung: Ab 07/1995 hieß ein anderer Farbton ebenfalls silbergrau-metallic (N7P). Der im Netz oft genannte Code LB7Z ist Satinsilber und passt nicht zu Bj. 1994.",
+      "quelle": ["t4wiki:Farbnummern", "paintscratch"]
+    },
+    "typ_verkaufskennnummer": {
+      "wert": "beginnt mit 70x (T4 vor 1996; 7Dx = ab 1996)",
+      "quelle": "t4wiki:Fahrzeugdatenträger"
+    },
+    "hsn_tsn": {
+      "wert": "0600 / 831",
+      "hinweis": "Schlüsselnummern laut ADAC für „T4 Multivan 2.4 D“ mit Schaltgetriebe; mit den eigenen Fahrzeugpapieren abgleichen (Automatik/Allstar/Classic haben eigene Einträge).",
+      "quelle": "adac"
+    },
+    "getriebe": {
+      "wert": "5-Gang-Schaltgetriebe Typ 02B (falls kein Automatik: dann 4-Gang Typ 098)",
+      "hinweis": "Für den AAB im Jahr 1994 listet das T4-Wiki u. a. die Getriebekennbuchstaben AYD, AYF, CCW, CCY, CHP, CHS, CLW, CLX, CLY, CLZ, CPV, CPW, CRL, CRN, CRV, CRW, CTV (Frontantrieb/Syncro gemischt). Der tatsächliche GKB steht auf dem Datenträger.",
+      "quelle": "t4wiki:Getriebekennbuchstabe"
+    },
+    "schiebedach_pr_nummer": {
+      "wert": "3JG = Glasschiebedach mit elektrischer Betätigung (Lade-/Fahrgastraum); 3EF = Glasschiebe-/Aufstelldach im Fahrerhaus, elektrisch, mit Jalousie",
+      "hinweis": "Welche der beiden Nummern (oder beide) verbaut ist, zeigt der Datenträger.",
+      "quelle": "t4wiki:Ausstattungsnummer"
+    }
+  },
+  "am_fahrzeug_pruefen": [
+    {"was": "Fahrzeug-Identifizierungsnummer (FIN), 10. Stelle", "warum": "legt das Modelljahr fest (R = 1994, S = 1995)"},
+    {"was": "Motornummer (am Motorblock eingeschlagen, beginnt mit AAB)", "warum": "Mehrere Teile hängen an Motornummern-Grenzen: Vakuumpumpe/Zylinderkopf (bis/ab AAB 272 502, ca. 05/1994), Wasserpumpe und Zahnriemenspannung (bis AAB 320 127 = 01/1995), Zylinderkopfdichtung"},
+    {"was": "Getriebekennbuchstabe (Datenträger Zeile 5)", "warum": "bestimmt Übersetzungen und Ölfüllmenge"},
+    {"was": "Lacknummer und Polsterfarbe (Datenträger Zeile 6)", "warum": "bestätigt D7V; bei Allstar zusätzlich Absetzlackierung"},
+    {"was": "PR-/Ausstattungsnummern (Datenträger ab Zeile 7)", "warum": "zeigt Sondermodell (z. B. E6Y = Classic) und Schiebedach-Variante (3JG / 3EF)"},
+    {"was": "Datenträger-Aufkleber", "warum": "klebt im Serviceheft und im Fahrzeug nahe der Zentralelektrik (A-Säule bzw. untere Verkleidung der Zentralelektrik)"},
+    {"was": "Sondermodell Allstar oder Classic?", "warum": "Allstar: graue Absetzlackierung unten + Schriftzüge; Classic: Schriftzüge/Dekorfolien, Stoßfänger in Wagenfarbe"},
+    {"was": "Kühlmittelfarbe im Ausgleichsbehälter", "warum": "ab Werk G11 (grün/blau); niemals mit G12 (rot) mischen"}
+  ]
+}

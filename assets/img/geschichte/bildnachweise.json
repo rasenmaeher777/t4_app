@@ -1,0 +1,79 @@
+{
+ "t1": {
+  "datei": "assets/img/geschichte/t1.jpg",
+  "breite": 1280,
+  "hoehe": 853,
+  "titel": "File:VW-Bus T1.jpg",
+  "urheber": "Hydro",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:VW-Bus_T1.jpg",
+  "beschreibung": "VW T1 auf dem 5. \"Werk II Old- und Youngtimertreffen\" 2016 in Dreihausen"
+ },
+ "t2": {
+  "datei": "assets/img/geschichte/t2.jpg",
+  "breite": 1280,
+  "hoehe": 960,
+  "titel": "File:Volkswagen Transporter T2 in Paimpol, France (1).jpg",
+  "urheber": "2538O",
+  "lizenz": "CC0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "seite": "https://commons.wikimedia.org/wiki/File:Volkswagen_Transporter_T2_in_Paimpol,_France_(1).jpg",
+  "beschreibung": "Volkswagen Transporter T2 in Paimpol, France"
+ },
+ "t3": {
+  "datei": "assets/img/geschichte/t3.jpg",
+  "breite": 1280,
+  "hoehe": 881,
+  "titel": "File:Volkswagen Caravelle (T3).jpg",
+  "urheber": "Rutger van der Maar",
+  "lizenz": "CC BY 2.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/2.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:Volkswagen_Caravelle_(T3).jpg",
+  "beschreibung": "Mülheim an der Ruhr"
+ },
+ "t4-1993": {
+  "datei": "assets/img/geschichte/t4-1993.jpg",
+  "breite": 1280,
+  "hoehe": 960,
+  "titel": "File:VW Caravelle 1993 for.jpg",
+  "urheber": "Christian Giersing",
+  "lizenz": "CC BY-SA 3.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:VW_Caravelle_1993_for.jpg",
+  "beschreibung": "VW Caravelle årgang 1993"
+ },
+ "t4-allstar": {
+  "datei": "assets/img/geschichte/t4-allstar.jpg",
+  "breite": 800,
+  "hoehe": 510,
+  "titel": "File:VW T4 Multivan Allstar.jpg",
+  "urheber": "User Ermel on en.wikipedia",
+  "lizenz": "CC BY-SA 3.0",
+  "lizenz_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "seite": "https://commons.wikimedia.org/wiki/File:VW_T4_Multivan_Allstar.jpg",
+  "beschreibung": "Early 1990s VW Multivan Allstar. This type of vehicle was called \"VW Eurovan\" in the United States."
+ },
+ "t4-langer-vorderwagen": {
+  "datei": "assets/img/geschichte/t4-langer-vorderwagen.jpg",
+  "breite": 1280,
+  "hoehe": 853,
+  "titel": "File:VW T4 front 20070926.jpg",
+  "urheber": "Rudolf Stricker",
+  "lizenz": "CC BY-SA 3.0",
+  "lizenz_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "seite": "https://commons.wikimedia.org/wiki/File:VW_T4_front_20070926.jpg",
+  "beschreibung": "VW Bus (T4)"
+ },
+ "t5": {
+  "datei": "assets/img/geschichte/t5.jpg",
+  "breite": 1280,
+  "hoehe": 845,
+  "titel": "File:VOLKSWAGEN MULTIVAN (T5) China.jpg",
+  "urheber": "Dinkun Chen",
+  "lizenz": "CC BY-SA 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "seite": "https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_MULTIVAN_(T5)_China.jpg",
+  "beschreibung": "VOLKSWAGEN MULTIVAN (T5) China"
+ }
+}

@@ -1,0 +1,71 @@
+{
+  "_hinweis": "Wartungsdaten für T4 Multivan Bj. 1994 mit AAB. Alle Angaben vor dem Schrauben mit Bordbuch/Reparaturleitfaden abgleichen – das T4-Wiki weist selbst darauf hin. Preise im Wiki stammen von ca. 2010–2016 und wurden hier bewusst weggelassen.",
+  "intervalle": [
+    {"arbeit": "Motoröl und Ölfilter wechseln", "intervall_km": 10000, "intervall_zeit": "1 Jahr", "hinweis": "Kürzeres Intervall als bei den anderen T4-Motoren (15.000 km) – gilt für AAB, ABL, AJA", "quelle": "t4wiki:Motoröl"},
+    {"arbeit": "Inspektion (Grundumfang)", "intervall_km": 15000, "intervall_zeit": "1 Jahr", "hinweis": "Bis MJ 1995 keine Service-Anzeige – Intervall selbst verfolgen", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Staub- und Pollenfilter wechseln", "intervall_km": 20000, "intervall_zeit": null, "hinweis": "bei Saugdieselmotoren alle 20.000 km (sonst 15.000)", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Zahnriemen prüfen (Zustand und Spannung, manuelle Spannvorrichtung)", "intervall_km": 30000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Kraftstofffilter entwässern", "intervall_km": 30000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Keilriemen: Spannung und Zustand prüfen", "intervall_km": 30000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Schaltgetriebe: Ölstand prüfen", "intervall_km": 30000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Servolenkung: Hydraulikölstand prüfen", "intervall_km": 30000, "intervall_zeit": null, "hinweis": "ab 1992 alle 30.000 km", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Schiebedach prüfen, Schienen reinigen und fetten", "intervall_km": 30000, "intervall_zeit": null, "hinweis": "Spezialfett verwenden", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Unterbodenschutz prüfen", "intervall_km": 30000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Kraftstofffilter ersetzen", "intervall_km": 60000, "intervall_zeit": null, "hinweis": "bei Biodiesel-Betrieb alle 30.000 km", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Luftfilter wechseln, Luftfiltergehäuse reinigen", "intervall_km": 60000, "intervall_zeit": null, "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Zahnriemen Nockenwelle + Zahnriemen Einspritzpumpe wechseln", "intervall_km": 120000, "intervall_zeit": null, "hinweis": "Wasserpumpe dabei mitwechseln (Verbundarbeit). Bei Bj. 1994 wird der Riemen über die Wasserpumpe gespannt. Kein Zeitintervall im Wiki genannt – bei einem über 30 Jahre alten Auto zusätzlich nach Alter wechseln.", "quelle": ["t4wiki:Inspektion", "t4wiki:Zahnriemen (Problematik)", "t4wiki:Wasserpumpe"]},
+    {"arbeit": "Bremsflüssigkeit wechseln", "intervall_km": null, "intervall_zeit": "2 Jahre", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Frostschutz prüfen", "intervall_km": 15000, "intervall_zeit": "1 Jahr", "hinweis": "Sollwert −25 °C", "quelle": "t4wiki:Inspektion"},
+    {"arbeit": "Getriebeöl wechseln", "intervall_km": null, "intervall_zeit": null, "hinweis": "Laut VW Lebensdauerfüllung; in der Praxis bei hoher Laufleistung sinnvoll – das Getriebe schaltet danach spürbar besser", "quelle": "t4wiki:Getriebeöl"}
+  ],
+  "inspektion_15000_grundumfang": {
+    "_hinweis": "Kurzfassung; vollständige Tabelle in recherche/t4-wiki/seiten/inspektion.md",
+    "quelle": "t4wiki:Inspektion",
+    "punkte": [
+      "Beleuchtung komplett, Blinker, Warnblinker, Innenlicht, Hupe, Wischer/Wascher prüfen",
+      "Motorraum: Sichtprüfung auf Undichtigkeiten und Beschädigungen, auch Batterie",
+      "Leerlaufdrehzahl prüfen/einstellen (Diesel ohne Motorsteuergerät)",
+      "Ölstand, Kühlmittelstand, Frostschutz, Bremsflüssigkeitsstand, Scheibenwaschwasser",
+      "Reifen: Zustand, Laufbild, Druck, Profil – auch Reserverad",
+      "Wischerblätter prüfen, Türen (Feststeller, Bolzen) schmieren",
+      "Von unten: Bremsbeläge, Bremsanlage, Abgasanlage, Achsgelenke und Manschetten, Lenkung mit Faltenbälgen, Spurstangenköpfe, Getriebe/Achsantrieb auf Dichtheit"
+    ]
+  },
+  "betriebsstoffe": [
+    {"name": "Motoröl – Spezifikation", "wert": "VW 505 00 (alternativ 501 01, 500 00, 505 01, 502 00) bzw. ACEA B3/B4", "hinweis": "KEIN LongLife-Öl nach VW 506 00 / 506 01 (bis MJ 1999 laut VW Motorschadengefahr). Wegen dieser Warnung liegt eine Viskosität ab 10W nahe, z. B. 10W-40.", "quelle": "t4wiki:Motoröl"},
+    {"name": "Motoröl – Füllmenge", "wert": "5,0 l ohne Filterwechsel, ca. 5,5 l mit Ölfilter", "hinweis": "Zwischen Min- und Max-Markierung liegt ca. 1 l. Ölstand bei warmem Motor, ca. 3 min nach dem Abstellen, auf ebener Fläche prüfen.", "quelle": "t4wiki:Motoröl"},
+    {"name": "Kühlmittel – Menge", "wert": "ca. 9 l (ausstattungsabhängig)", "quelle": "t4wiki:Kühlmittel"},
+    {"name": "Kühlmittel – Typ", "wert": "ab Werk G11 (TL 774 C, grün/blau, silikathaltig) – entspricht G48", "hinweis": "G11 und G12 (rot) niemals mischen. Zum Nachfüllen im Zweifel G12++ oder G13 (mit allen mischbar). Mischung 40–60 % Frostschutz.", "quelle": "t4wiki:Kühlmittel"},
+    {"name": "Getriebeöl Schaltgetriebe", "wert": "SAE 75W-90 synthetisch, API GL-4 (VW 501 50); VW-Teilenummer G 060 726 A2 (ersetzt G 052 726 A2); 2,5 l", "quelle": ["t4wiki:Getriebeöl", "t4wiki:Getriebekennbuchstabe"]},
+    {"name": "ATF (nur Automatik 098)", "wert": "ATF Dexron; 6,1 l Füllung, 3,5 l Wechselmenge; Achsantrieb 75W-90", "quelle": "t4wiki:Getriebeöl"},
+    {"name": "Bremsflüssigkeit", "wert": "DOT 4, ca. 1,5 l für den Wechsel", "quelle": "t4wiki:Bremsflüssigkeit"},
+    {"name": "Kraftstoff", "wert": "Diesel; Tank 80 l", "quelle": "adac"}
+  ],
+  "verschleissteile_teilenummern": [
+    {"teil": "Ölfilter (5-Zylinder)", "teilenummer": "074 115 561", "hinweis": "Anschraubfilter, bei vielen Filtern Mehrkant SW27", "quelle": "t4wiki:Ölfilter"},
+    {"teil": "Luftfiltereinsatz (bis MJ 1995)", "teilenummer": "044 129 620", "quelle": "t4wiki:Luftfilter"},
+    {"teil": "Kraftstofffilter (alle Diesel)", "teilenummer": "1H0 127 401 C", "quelle": "t4wiki:Kraftstofffilter"},
+    {"teil": "Glühkerze (M12×1,25×21)", "teilenummer": "N 102 130 01 (Beru) / N 102 130 02 (Bosch)", "quelle": "t4wiki:Glühkerze"},
+    {"teil": "Vorglührelais J52 (ab 03/1992)", "teilenummer": "191 911 261 C", "quelle": "t4wiki:Relais J52 (Glühkerzen)"},
+    {"teil": "Wasserpumpe (AAB bis Motor-Nr. 320 127, 18 Zähne, Langlöcher)", "teilenummer": "023 121 004", "quelle": "t4wiki:Wasserpumpe"},
+    {"teil": "Kühlmittelregler 87 °C + Dichtring 60×3,5", "teilenummer": "069 121 113 + N 901 368 02", "quelle": "t4wiki:Kühlmittelregler"},
+    {"teil": "Dichtring Verschlussschraube Einspritzpumpe (8×11,5)", "teilenummer": "N 013 807 5", "quelle": "t4wiki:Förderbeginn (AAB)"},
+    {"teil": "Radschraube 15 Zoll", "teilenummer": "701 601 139 B", "quelle": "t4wiki:Rad"},
+    {"teil": "Schalter Schiebedach (vorn, in der Innenleuchte)", "teilenummer": "1H0 959 728", "quelle": "t4wiki:Innenbeleuchtung"},
+    {"teil": "Staub- und Pollenfilter (falls nachgerüstet/vorhanden)", "teilenummer": "7D0 819 989", "hinweis": "Ausführung für Bj. 1994 im Rohtext pollenfilter.md prüfen", "quelle": "t4wiki:Pollenfilter"}
+  ],
+  "anleitungen_im_rohmaterial": [
+    {"thema": "Ölwechsel 5-Zylinder (Schritt für Schritt)", "datei": "recherche/t4-wiki/seiten/motoroel.md"},
+    {"thema": "Förderbeginn prüfen und einstellen", "datei": "recherche/t4-wiki/seiten/foerderbeginn-aab.md"},
+    {"thema": "Einspritzpumpe aus-/einbauen und abdichten", "datei": "recherche/t4-wiki/seiten/einspritzpumpe.md"},
+    {"thema": "Wasserpumpe wechseln", "datei": "recherche/t4-wiki/seiten/wasserpumpe.md"},
+    {"thema": "Glühkerzen prüfen / wechseln", "datei": "recherche/t4-wiki/seiten/gluehkerzen-pruefen.md, gluehkerzenwechsel-motor.md"},
+    {"thema": "Kompressionsdruck messen", "datei": "recherche/t4-wiki/seiten/kompressionsdruck.md"},
+    {"thema": "Kühlmittel ablassen/auffüllen", "datei": "recherche/t4-wiki/seiten/kuehlsystem-kuehlmittel-ablassen-auffuellen.md"},
+    {"thema": "Getriebeöl prüfen/wechseln (02B)", "datei": "recherche/t4-wiki/seiten/getriebeoel.md"},
+    {"thema": "Trommelbremse hinten zerlegen/einstellen", "datei": "recherche/t4-wiki/seiten/trommelbremse.md"},
+    {"thema": "Zentralelektrik reparieren (Steckplatz Vorglührelais)", "datei": "recherche/t4-wiki/seiten/zentralelektrik.md"},
+    {"thema": "Hydrostößel (am Beispiel AAB)", "datei": "recherche/t4-wiki/seiten/hydrostoessel.md"},
+    {"thema": "Nockenwelle aus-/einbauen (am Beispiel AAB)", "datei": "recherche/t4-wiki/seiten/nockenwelle.md"}
+  ]
+}
