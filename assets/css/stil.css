@@ -522,3 +522,17 @@ a, button, summary, input, textarea, label { touch-action: manipulation; }
 /* Mit Notch (Querformat) und in der WebApp: Inhalt nie unter Rand oder Home-Anzeige */
 .zugang-form { padding-bottom: env(safe-area-inset-bottom); }
 #zugang { padding-left: max(24px, env(safe-area-inset-left)); padding-right: max(24px, env(safe-area-inset-right)); }
+
+/* Download-Link im Aussehen eines Knopfes (Seite „Links“) */
+a.knopf { display: inline-flex; align-items: center; text-decoration: none; }
+a.knopf:hover { color: var(--bg); text-decoration: none; }
+
+/* Menü mit sechs Punkten: auf dem iPhone einzeilig (Ergänzung zu „Links“) */
+@media (max-width: 480px) {
+  .menue a { padding: 9px 5px 7px; font-size: 13.5px; }
+  .menue li:first-child a { padding-left: 0; }
+  .menue li:last-child a { padding-right: 0; }
+}
+@media (max-width: 374px) {
+  .menue a { padding: 9px 4px 7px; font-size: 12.5px; }
+}

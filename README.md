@@ -19,6 +19,7 @@ Aufbau jeder Seite: dunkler Titelblock (Überschrift in Impact), Menü mit Suchf
 | `geschichte.html` | Eckdaten, Zeitleiste, Vorderwagen, Produktion, Modelljahre |
 | `fakten.html` | Wissenswertes und Kurioses |
 | `aufgaben.html` | Aufgabenliste mit Fristen und ein Notizfeld, gespeichert in Firestore (Einrichtung siehe unten) |
+| `links.html` | Links zu T4-Wiki, T4Forum und VWBuswelt; Betriebsanleitung als PDF zum Herunterladen (`assets/dokumente/`) |
 | `quellen.html` | Quellen, Lizenzen, Bildnachweise, Datenschutz |
 | `404.html` | Fehlerseite |
 
@@ -28,8 +29,8 @@ Für die Website werden nur diese Dateien gebraucht:
 
 ```
 index.html, daten.html,
-geschichte.html, fakten.html, aufgaben.html, quellen.html, 404.html
-assets/            (CSS, JavaScript, Bilder – ca. 3,6 MB)
+geschichte.html, fakten.html, aufgaben.html, links.html, quellen.html, 404.html
+assets/            (CSS, JavaScript, Bilder, Betriebsanleitung als PDF – ca. 13 MB)
 manifest.webmanifest   (Name und Icon für „Zum Home-Bildschirm“)
 .nojekyll          (leere Datei; sagt GitHub, die Dateien unverändert auszuliefern)
 ```

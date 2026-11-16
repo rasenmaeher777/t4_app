@@ -13,6 +13,7 @@ NAVI = [
     ("geschichte.html", "Geschichte"),
     ("fakten.html", "Fakten"),
     ("aufgaben.html", "Aufgaben"),
+    ("links.html", "Links"),
 ]
 
 

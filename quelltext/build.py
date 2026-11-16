@@ -19,6 +19,7 @@ import helfer  # noqa: E402
 import s_aufgaben  # noqa: E402
 import s_daten  # noqa: E402
 import s_geschichte_fakten  # noqa: E402
+import s_links  # noqa: E402
 import s_start_technik  # noqa: E402
 
 SEITEN = [
@@ -27,6 +28,7 @@ SEITEN = [
     s_geschichte_fakten.geschichte,
     s_geschichte_fakten.fakten,
     s_aufgaben.aufgaben,
+    s_links.links,
     s_geschichte_fakten.quellen,
 ]
 
