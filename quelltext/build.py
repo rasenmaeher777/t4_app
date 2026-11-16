@@ -16,19 +16,17 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import helfer  # noqa: E402
-import s_ausstattung  # noqa: E402
-import s_fahrdaten_wartung  # noqa: E402
+import s_aufgaben  # noqa: E402
+import s_daten  # noqa: E402
 import s_geschichte_fakten  # noqa: E402
 import s_start_technik  # noqa: E402
 
 SEITEN = [
     s_start_technik.start,
-    s_start_technik.technik,
-    s_fahrdaten_wartung.fahrdaten,
-    s_fahrdaten_wartung.wartung,
-    s_ausstattung.ausstattung,
+    s_daten.daten_seite,
     s_geschichte_fakten.geschichte,
     s_geschichte_fakten.fakten,
+    s_aufgaben.aufgaben,
     s_geschichte_fakten.quellen,
 ]
 
@@ -81,7 +79,7 @@ def main():
         for s in seiten if s.get("sprungmarken")) + "</ul>"  # nicht mehr verwendet
     for s in seiten:
         s["inhalt"] = s["inhalt"].replace("<!--INHALT-->", uebersicht)
-        schreibe(s["datei"], helfer.rahmen(s["datei"], s["titel"], s["beschreibung"], s["kopf"], s["inhalt"], s.get("sprungmarken")))
+        schreibe(s["datei"], helfer.rahmen(s["datei"], s["titel"], s["beschreibung"], s["kopf"], s["inhalt"], s.get("sprungmarken"), s.get("skripte", "")))
         print("geschrieben:", s["datei"])
     schreibe("404.html", helfer.rahmen(
         "404.html", "Seite nicht gefunden", "Diese Seite gibt es nicht.",
@@ -91,8 +89,8 @@ def main():
     schreibe(os.path.join("assets", "js", "suchindex.js"), "window.SUCHINDEX = " + json.dumps(index, ensure_ascii=False, separators=(",", ":")) + ";\n")
     print("Suchindex:", len(index), "Einträge")
     schreibe("manifest.webmanifest", json.dumps({
-        "name": "VW T4 Multivan 2.4 D", "short_name": "T4 Multivan", "lang": "de",
-        "start_url": "index.html", "scope": "./", "display": "standalone",
+        "name": "VW T4 Multivan 2.4 D", "short_name": "T4 Multivan", "lang": "de", "id": "./",
+        "start_url": "index.html", "scope": "./", "display": "standalone", "orientation": "any",
         "background_color": "#F3F0F0", "theme_color": "#252525",
         "icons": [{"src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
                   {"src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"}],

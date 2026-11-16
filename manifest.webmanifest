@@ -2,9 +2,11 @@
   "name": "VW T4 Multivan 2.4 D",
   "short_name": "T4 Multivan",
   "lang": "de",
+  "id": "./",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#F3F0F0",
   "theme_color": "#252525",
   "icons": [

@@ -27,8 +27,22 @@
       }).join("");
       box.hidden = false;
     };
-    feld.addEventListener("input", suchen);
-    feld.addEventListener("focus", suchen);
+    /* iPhone: Die Tastatur verdeckt die untere Bildschirmhälfte, ohne die Seite zu verkleinern.
+       Darum die Trefferliste nur so hoch machen, wie über der Tastatur Platz ist. */
+    var passeHoehe = function () {
+      if (box.hidden) { return; }
+      var vv = window.visualViewport;
+      var sichtbar = vv ? vv.height : window.innerHeight;
+      var oben = box.getBoundingClientRect().top - (vv ? vv.offsetTop : 0);
+      box.style.maxHeight = Math.max(150, Math.min(sichtbar - oben - 12, sichtbar * 0.7)) + "px";
+    };
+    var suchenUndPassen = function () { suchen(); passeHoehe(); };
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener("resize", passeHoehe);
+      window.visualViewport.addEventListener("scroll", passeHoehe);
+    }
+    feld.addEventListener("input", suchenUndPassen);
+    feld.addEventListener("focus", suchenUndPassen);
     feld.addEventListener("keydown", function (ev) {
       if (ev.key === "Enter") { var erster = box.querySelector("a"); if (erster) { window.location.href = erster.getAttribute("href"); } }
       if (ev.key === "Escape") { box.hidden = true; feld.blur(); }

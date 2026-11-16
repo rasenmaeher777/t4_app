@@ -9,12 +9,10 @@ STAND = "November 2026"
 
 NAVI = [
     ("index.html", "Start"),
-    ("technik.html", "Technik"),
-    ("fahrdaten.html", "Fahrdaten"),
-    ("wartung.html", "Wartung"),
-    ("ausstattung.html", "Ausstattung"),
+    ("daten.html", "Daten"),
     ("geschichte.html", "Geschichte"),
     ("fakten.html", "Fakten"),
+    ("aufgaben.html", "Aufgaben"),
 ]
 
 
@@ -28,7 +26,8 @@ def e(text):
 
 
 def geld(wert):
-    return f"{wert:,.0f}".replace(",", ".") + " €"
+    """Euro-Betrag (ADAC) in DM umgerechnet, 1 € = 1,95583 DM."""
+    return f"{round(wert * 1.95583):,}".replace(",", ".") + " DM"
 
 
 def tsd(wert):
@@ -146,11 +145,20 @@ def bild(name, alt, breiten, sizes, lazy=True, klasse=""):
 BILDMASSE = {"t4-front": (1600, 1117), "t4-heck": (1600, 1033), "emblem": (720, 559)}
 
 
+# ---------- Passwortabfrage (wird in jede Seite eingebaut, siehe assets/js/zugang.js) ----------
+ZUGANG_HTML = """<div id="zugang"><form class="zugang-form" id="zugang-form" method="post" action="#">
+  <img src="assets/img/icon-192.png" width="96" height="96" alt="">
+  <h1>T4 Website</h1>
+  <input type="text" name="username" autocomplete="username" tabindex="-1" aria-hidden="true" readonly class="zugang-name">
+  <div class="zugang-feld"><input type="password" id="zugang-passwort" name="password" placeholder="Passwort" aria-label="Passwort" autocomplete="current-password" required><button type="submit" id="zugang-los" aria-label="Anmelden"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+  <p id="zugang-meldung" role="alert"></p>
+</form></div>"""
+
 # ---------- Seitenrahmen ----------
 SEITENNAME = "VW T4 Multivan 2.4 D"
 
 
-def rahmen(datei, titel, beschreibung, kopf, inhalt, sprungmarken=None):
+def rahmen(datei, titel, beschreibung, kopf, inhalt, sprungmarken=None, skripte=""):
     nav = "".join(
         f'<li><a href="{d}"{" aria-current=page" if d == datei else ""}>{n}</a></li>' for d, n in NAVI
     )
@@ -180,11 +188,16 @@ def rahmen(datei, titel, beschreibung, kopf, inhalt, sprungmarken=None):
 <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="T4 Multivan">
 <meta name="application-name" content="T4 Multivan">
+<script src="assets/js/zugang-vor.js"></script>
 <link rel="stylesheet" href="assets/css/stil.css">
 </head>
 <body>
+{ZUGANG_HTML}
 <header class="titel"><div class="innen"><div class="titel-text">{kopf}</div><img class="logo" src="assets/img/emblem-frei-120.png" srcset="assets/img/emblem-frei-120.png 1x, assets/img/emblem-frei-240.png 2x" width="119" height="120" alt="VW-Emblem"></div></header>
 <nav class="navi" aria-label="Hauptmenü"><div class="innen">
   <ul class="menue">{nav}</ul>
@@ -199,10 +212,11 @@ def rahmen(datei, titel, beschreibung, kopf, inhalt, sprungmarken=None):
 </div>
 <footer class="fuss"><div class="innen">
   <p>Private, nicht kommerzielle Seite. Keine Verbindung zur Volkswagen AG; „Volkswagen“, „VW“ und „Multivan“ sind Marken der Volkswagen AG.</p>
-  <p>Alle Angaben ohne Gewähr. Stand: {STAND}. <a href="quellen.html">Quellen und Bildnachweise</a></p>
+  <p>Alle Angaben ohne Gewähr. Stand: {STAND}. <a href="quellen.html">Quellen und Bildnachweise</a><span hidden> · <a href="#" id="abmelden">Abmelden</a></span></p>
 </div></footer>
 <script src="assets/js/suchindex.js" defer></script>
 <script src="assets/js/seite.js" defer></script>
+<script type="module" src="assets/js/zugang.js"></script>{skripte}
 </body>
 </html>
 """

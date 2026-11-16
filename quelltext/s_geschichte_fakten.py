@@ -33,7 +33,7 @@ def geschichte():
         ("Konzept", "Frontmotor quer, Frontantrieb", "erster VW-Bus ohne Heckmotor"),
         ("Radstände", "2920 und 3320 mm", "Multivan nur kurz"),
         ("Auszeichnung", "Van of the Year 1992", "cw-Wert 0,36"),
-    ]) + mehr("Vorgänger und Neuanfang", f"""<p>T1 bis T3 hatten Heckmotor und Heckantrieb. Der T4 war eine vollständige Neukonstruktion mit Frontantrieb und tiefem, durchgehendem Ladeboden; Entwicklungskosten laut {ext(AMS, "auto motor und sport")} rund zwei Milliarden Mark.</p>
+    ]) + mehr("Vorgänger und Neuanfang", f"""<p>T1 bis T3 hatten Heckmotor und Heckantrieb. Der T4 war eine vollständige Neukonstruktion mit Frontantrieb und tiefem, durchgehendem Ladeboden; Entwicklungskosten laut {ext(AMS, "auto motor und sport")} rund zwei Milliarden DM.</p>
 <div class="galerie drei">
   {foto("t1", "T1 · 1950–1967", "")}
   {foto("t2", "T2 · 1967–1979", "")}
@@ -46,7 +46,7 @@ def geschichte():
 
     zeit = abschnitt("zeitleiste", "", "Zeitleiste", klappliste([
         ("Produktionsstart", "Der T4 löst in Hannover den T3 ab. Zum Start drei Benziner und zwei Diesel, darunter der 2.4 D (AAB).", "08/1990"),
-        ("Multivan 2.4 D im Katalog", "Grundpreis umgerechnet 23.205 €. Im Herbst kommt Silbergrau Metallic (D7V).", "1991"),
+        ("Multivan 2.4 D im Katalog", "Grundpreis 45.385 DM. Im Herbst kommt Silbergrau Metallic (D7V).", "1991"),
         ("Van of the Year, 1.9 TD, Allstar", "August: 1.9 TD. Oktober: Sondermodell Allstar. In Nordamerika als EuroVan verkauft.", "1992"),
         ("syncro und Aufstelldach", "Allrad erst jetzt, weil bis dahin der T3 syncro lief. 1993/94 entstehen 9.667 T4 in Emden.", "1993"),
         ("Classic, Wasserlack, neue Vakuumpumpe", "Januar: Multivan Classic. Umstellung auf Wasserbasislack. Mai: geänderter Zylinderkopf mit neuer Vakuumpumpe am AAB. 135.144 Transporter gebaut.", "1994"),
@@ -108,7 +108,7 @@ def fakten():
     zahlen = abschnitt("zahlen", "", "Zahlen", kv([
         ("432.060", "AAB-Motoren", "meistgebauter T4-Motor"),
         ("2.020", "1.8-Vergasermotoren (PD)", "seltenster Motor, 1990–1992"),
-        ("2 Mrd. DM", "Entwicklungskosten", None),
+        ("ca. 2 Mrd. DM", "Entwicklungskosten", None),
         ("13 Jahre", "Bauzeit", "08/1990 – 06/2003"),
         ("9.667", "T4 aus Emden", "1993/94"),
         ("5.610", "T4 für die Bundeswehr", "ab 1995"),
@@ -173,8 +173,9 @@ def quellen():
 <p class="klein">Die freigestellten Schwarz-Weiß-Abbildungen (Frontansicht, Heckansicht, Emblem) wurden vom Betreiber dieser Seite bereitgestellt. Bilder zu Reparaturen sind nicht eingebettet, sondern als Links auf das T4-Wiki gesetzt.</p>
 """) + abschnitt("technik-der-seite", "Zur Seite", "Datenschutz", """
 <div class="text">
-  <p>Die Seite besteht aus statischen Dateien. Sie setzt keine Cookies, bindet keine Schriften oder Skripte von fremden Servern ein und zählt keine Besucher. </p>
+  <p>Die Seite besteht aus statischen Dateien. Sie setzt keine Cookies, bindet keine Schriften von fremden Servern ein und zählt keine Besucher.</p>
   <p>Beim Abruf verarbeitet der Hoster (GitHub Pages) technisch notwendige Daten wie die IP-Adresse.</p>
+  <p>Der Zugang ist mit einem Passwort geschützt. Dafür lädt jede Seite Skripte von Google (Firebase Authentication); die Anmeldung merkt sich Firebase im Browser (lokaler Speicher, kein Tracking-Cookie). Die Seite „Aufgaben“ speichert Aufgaben und Notizen in Google Cloud Firestore. Dabei wird jeweils die IP-Adresse an Google übertragen.</p>
 </div>
 """)
     return dict(

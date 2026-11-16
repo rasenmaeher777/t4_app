@@ -7,19 +7,30 @@
 <meta name="theme-color" content="#252525">
 <meta name="format-detection" content="telephone=no">
 <title>VW T4 Multivan 2.4 D, Baujahr 1994</title>
-<meta name="description" content="Technik, Fahrdaten, Wartung, Ausstattung und Geschichte eines VW T4 Multivan 2.4 D (Motor AAB) von 1994.">
+<meta name="description" content="Daten, Geschichte und Fakten zu einem VW T4 Multivan 2.4 D (Motor AAB) von 1994.">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="T4 Multivan">
 <meta name="application-name" content="T4 Multivan">
+<script src="assets/js/zugang-vor.js"></script>
 <link rel="stylesheet" href="assets/css/stil.css">
 </head>
 <body>
+<div id="zugang"><form class="zugang-form" id="zugang-form" method="post" action="#">
+  <img src="assets/img/icon-192.png" width="96" height="96" alt="">
+  <h1>T4 Website</h1>
+  <input type="text" name="username" autocomplete="username" tabindex="-1" aria-hidden="true" readonly class="zugang-name">
+  <div class="zugang-feld"><input type="password" id="zugang-passwort" name="password" placeholder="Passwort" aria-label="Passwort" autocomplete="current-password" required><button type="submit" id="zugang-los" aria-label="Anmelden"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+  <p id="zugang-meldung" role="alert"></p>
+</form></div>
 <header class="titel"><div class="innen"><div class="titel-text"><h1>VW T4 Multivan 2.4 D</h1><p class="unter">Baujahr 1994 · Motor AAB · Silbergrau Metallic · Glasschiebedach</p></div><img class="logo" src="assets/img/emblem-frei-120.png" srcset="assets/img/emblem-frei-120.png 1x, assets/img/emblem-frei-240.png 2x" width="119" height="120" alt="VW-Emblem"></div></header>
 <nav class="navi" aria-label="Hauptmenü"><div class="innen">
-  <ul class="menue"><li><a href="index.html" aria-current=page>Start</a></li><li><a href="technik.html">Technik</a></li><li><a href="fahrdaten.html">Fahrdaten</a></li><li><a href="wartung.html">Wartung</a></li><li><a href="ausstattung.html">Ausstattung</a></li><li><a href="geschichte.html">Geschichte</a></li><li><a href="fakten.html">Fakten</a></li></ul>
+  <ul class="menue"><li><a href="index.html" aria-current=page>Start</a></li><li><a href="daten.html">Daten</a></li><li><a href="geschichte.html">Geschichte</a></li><li><a href="fakten.html">Fakten</a></li><li><a href="aufgaben.html">Aufgaben</a></li></ul>
   <div class="suche"><input type="search" id="suchfeld" placeholder="Suchen" aria-label="Seite durchsuchen" autocomplete="off"><div class="treffer" id="treffer" hidden></div></div>
 </div></nav>
 <div class="innen seite ohne-toc">
@@ -29,21 +40,24 @@
 <div class="kurz">
   <section id="kurzdaten">
     <h2 class="start-titel">Kurzdaten</h2>
-    <dl class="kurzdaten"><div><dt>Baujahr</dt><dd>1994<small>gebaut 1990 bis 2003</small></dd></div><div><dt>Motor</dt><dd>2,4 l Diesel<small>5 Zylinder, Kennbuchstabe AAB</small></dd></div><div><dt>Leistung</dt><dd>78 PS<small>57 kW, 164 Nm</small></dd></div><div><dt>Höchstgeschwindigkeit</dt><dd>137 km/h<small>0–100 km/h in 24,7 s</small></dd></div><div><dt>Verbrauch</dt><dd>9,3 l/100 km<small>Tank 80 l</small></dd></div><div><dt>Getriebe</dt><dd>5-Gang<small>Frontantrieb</small></dd></div><div><dt>Sitzplätze</dt><dd>6 bis 7<small>Rückbank als Bett</small></dd></div><div><dt>Länge</dt><dd>4,71 m<small>1,84 m breit, 1,92 m hoch</small></dd></div><div><dt>Leergewicht</dt><dd>1780 kg<small>zulässig 2590 kg</small></dd></div><div><dt>Anhängelast</dt><dd>2000 kg<small>gebremst</small></dd></div><div><dt>Farbe</dt><dd>Silbergrau Metallic<small>Lackcode D7V</small></dd></div><div><dt>Neupreis</dt><dd>ca. 45.400 DM<small>23.205 €, ohne Extras</small></dd></div></dl>
+    <dl class="kurzdaten"><div><dt>Baujahr</dt><dd>1994<small>gebaut 1990 bis 2003</small></dd></div><div><dt>Motor</dt><dd>2,4 l Diesel<small>5 Zylinder, Kennbuchstabe AAB</small></dd></div><div><dt>Leistung</dt><dd>78 PS<small>57 kW, 164 Nm</small></dd></div><div><dt>Höchstgeschwindigkeit</dt><dd>137 km/h<small>0–100 km/h in 24,7 s</small></dd></div><div><dt>Verbrauch</dt><dd>9,3 l/100 km<small>Tank 80 l</small></dd></div><div><dt>Getriebe</dt><dd>5-Gang<small>Frontantrieb</small></dd></div><div><dt>Sitzplätze</dt><dd>6 bis 7<small>Rückbank als Bett</small></dd></div><div><dt>Länge</dt><dd>4,71 m<small>1,84 m breit, 1,92 m hoch</small></dd></div><div><dt>Leergewicht</dt><dd>1780 kg<small>zulässig 2590 kg</small></dd></div><div><dt>Anhängelast</dt><dd>2000 kg<small>gebremst</small></dd></div><div><dt>Farbe</dt><dd>Silbergrau Metallic<small>Lackcode D7V</small></dd></div><div><dt>Kaufpreis</dt><dd>52.710 DM<small>neu beim Händler, mit Extras</small></dd></div></dl>
   </section>
   <div class="bild"><img src="assets/img/t4-front-900.png" srcset="assets/img/t4-front-900.png 900w, assets/img/t4-front-1600.png 1600w" sizes="(max-width: 860px) 92vw, 440px" width="1600" height="1117" alt="VW T4 mit kurzem Vorderwagen, Ansicht von vorn links" fetchpriority=high decoding="async"></div>
 </div>
-<h2 class="start-titel">Inhalt</h2>
-<ul class="verzeichnis"><li><a href="geschichte.html">Geschichte</a></li><li><a href="technik.html">Technik</a></li><li><a href="fahrdaten.html">Fahrdaten</a></li><li><a href="ausstattung.html">Ausstattung</a></li><li><a href="wartung.html">Wartung</a></li><li><a href="fakten.html">Fakten</a></li></ul>
+<figure class="zitat">
+  <blockquote><p>„Dieser T4 ist das schönste und tollste, was einem Mensch in seinem Leben passieren kann“</p></blockquote>
+  <figcaption>Wolfgang Johannes Göethe</figcaption>
+</figure>
 
 
 </main>
 </div>
 <footer class="fuss"><div class="innen">
   <p>Private, nicht kommerzielle Seite. Keine Verbindung zur Volkswagen AG; „Volkswagen“, „VW“ und „Multivan“ sind Marken der Volkswagen AG.</p>
-  <p>Alle Angaben ohne Gewähr. Stand: November 2026. <a href="quellen.html">Quellen und Bildnachweise</a></p>
+  <p>Alle Angaben ohne Gewähr. Stand: November 2026. <a href="quellen.html">Quellen und Bildnachweise</a><span hidden> · <a href="#" id="abmelden">Abmelden</a></span></p>
 </div></footer>
 <script src="assets/js/suchindex.js" defer></script>
 <script src="assets/js/seite.js" defer></script>
+<script type="module" src="assets/js/zugang.js"></script>
 </body>
 </html>
